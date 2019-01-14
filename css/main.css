@@ -60,6 +60,13 @@ main {
   margin-bottom: 1rem;
 }
 
+.subtitle {
+  font-size: 1.15rem;
+  line-height: 2rem;
+  font-weight: 700;
+  padding: 0 3rem;
+}
+
 .img-header {
   width: 100%;
   padding: 0;
@@ -133,6 +140,11 @@ main {
 .flex-third {
   flex: 1 1 30%;
   margin: 0.5rem;
+}
+
+.flex-twothird {
+  flex: 1 1 60%;
+  margin-right: 2rem;
 }
 
 .flex-quarter {
@@ -460,8 +472,8 @@ strong {
 }
 
 .contact-text{
-  font-size: 2.5rem;
-  line-height: 3.25rem;
+  font-size: 1.75rem;
+  line-height: 2.5rem;
 }
 
 .no-decoration {
