@@ -878,6 +878,9 @@ strong {
   .paragraph {
     margin: 1rem;
     padding: 0; }
+  .subtitle {
+    margin: 1rem;
+    padding: 0; }
   .side-padding {
     padding: 0; }
   .project-title {
