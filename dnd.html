@@ -115,7 +115,7 @@
         </section>
         <!-- // My Role  -->
 
-        <!-- Journey Mapping // -->
+        <!-- Initial Research // -->
         <section class="top-margin-6rem bottom-margin-6rem">
           <!-- Section Header // -->
           <div class="border-bottom">
@@ -131,35 +131,44 @@
             We started looking for the answer to our questions by surveying and interviewing both existing and prospective Dungeons & Dragons players, as well as conducting secondary open-source research.
           </p>
 
-          <h4 class="med-text bold">Insights</h4>
-          <ul>
-            <li class="small-text">Lack of confidence by new Dungeon Masters in their ability to improvise and bend rules in response to unexpected player actions.</li>
+          <h4 class="subtitle">Insights</h4>
+          <ul class="paragraph">
+            <li class="small-text">A reason why players are hesitant to become Dungeon Masters is because of the perceived amount of information they feel they have to know.</li>
             <li class="small-text">Many of the players surveyed learned how to play Dungeons & Dragons through media, such as watching videos, rather than reading the manuals.</li>
             <li class="small-text">Players became interested in Dungeons & Dragons because of the creative freedom and storytelling.</li>
           </ul>
         </section>
-        <!-- // Journey Mapping -->
+        <!-- // Initial Research -->
 
-        <!-- Personas// -->
+        <!-- Journey Mapping // -->
         <section class="top-margin-6rem bottom-margin-6rem">
           <!-- Section Header // -->
           <div class="border-bottom">
-            <h3 class="header-level2 no-margin-top">Pain Points</h3>
+            <h3 class="header-level2 no-margin-top">Journey Mapping</h3>
           </div>
           <!-- // Section Header -->
 
+          <p class="paragraph small-text">
+            Based on our interviews and survey data, I created a user journey framework for our persona: someone who plays board games socially learning how to run a Dungeons & Dragons game for their friends.
+          </p>
+
           <div>
-            <img src="img/dnd/pains-lazyload.jpg" data-src="img/dnd/pains.png" alt="Chart showing pains and needs when learning D&D" style="width:100%" class="banner lazyload blur top-margin">
+            <img src="img/dnd/dm-journey-lazyload.jpg" data-src="img/dnd/dm-journey.png" alt="Chart showing journey framework of a new dungeon master" style="width:100%" class="banner lazyload blur top-margin">
             <noscript>
-              <img src="img/dnd/pains.png" alt="Chart showing pains and needs when learning D&D" class="img-header top-margin">
+              <img src="img/dnd/pains.png" alt="Chart showing journey framework of a new dungeon master" class="img-header top-margin">
             </noscript>
           </div>
 
+          <h4 class="subtitle">Pain Points</h4>
           <p class="paragraph small-text">
-            Based on our interviews and survey, we identified some key pain points not only for new Dungeon Masters but for someone learning about Dungeons & Dragons for the first time.
+            Our initial assumption prior to research was that a major pain point would be the presentation of information, as Dungeons & Dragons as a game is presented through a series of text-heavy books and manuals.
+          </p>
+
+          <p class="paragraph small-text">
+            It turned out the actual pain point was intimidation regarding the Dungeon Master role, and worry about messing up other players' experience. However, after speaking to experienced Dungeon Masters and players, we found that <strong>the benchmark of a good Dungeon Master is not how much they know, but rather, how smoothly and convincingly they are able to improvise on the spot</strong>.
           </p>
         </section>
-        <!-- // Personas -->
+        <!-- // Journey Mapping-->
 
         <!-- User Testing // -->
         <section class="top-margin-6rem bottom-margin-6rem">
@@ -170,7 +179,7 @@
           <!-- // Section Header -->
 
           <p class="paragraph small-text">
-            How might we design a low-stakes environment for a newcomer to learn what they need to know to get started and get an accurate idea of what playing the game is like?
+            How might we design a low-stakes environment for a new Dungeon Master to learn what they need to know to get started and get an accurate idea of what running a game is like?
           </p>
         </section>
         <!-- // User Testing -->
@@ -203,7 +212,10 @@
             The first iteration of our prototype was in the form of an interactive tutorial in the form of an immersive roleplaying scenario. Users would be introduced to a scene commonly found in roleplaying games, and learning points such as dice rolling and combat would be introduced throughout using tooltips. This allowed them to learn and practice at the same time.
           </p>
           <p class="paragraph small-text">
-            While user testers found this form enjoyable, there were some points where the tester wanted to skip ahead because they already knew it. This showed our approach was <strong>too linear</strong>.
+            I conducted user tests with our first prototype with 5 individuals, including both existing Dungeons & Dragons players and prospective players. I took notes while observing their progression through our prototype, and asked follow-up questions both during and after.
+          </p>
+          <p class="paragraph small-text">
+            While user testers found the prototype enjoyable overall, there were some points where the tester wanted to skip ahead because they already knew the information. This showed our approach was <strong>too linear</strong>.
           </p>
         </section>
 
@@ -214,6 +226,12 @@
           </div>
           <!-- // Section Header -->
 
+          <h4 class="subtitle">Target Audience</h4>
+          <p class="paragraph small-text">
+            As we analyzed pain points for our persona, we found that many of them were not isolated to Dungeon Masters, but also experienced by newcomers learning to play Dungeons & Dragons in general. As a result, we adjusted our target audience to be inclusive of all newcomers to Dungeons & Dragons.
+          </p>
+
+          <h4 class="subtitle">Concept</h4>
           <p class="paragraph small-text">
             It was another research insight that helped us move forward into our next iteration. We found that many players <strong>learned about Dungeons & Dragons gameplay mechanics from family and/or friends</strong>. This led us to ask ourselves:
           </p>
@@ -256,7 +274,7 @@
             </div>
           </div>
 
-          <h4 class="med-text bold">Landing Screen</h4>
+          <h4 class="subtitle">Landing Screen</h4>
 
           <p class="paragraph small-text">
             When a user opens the app, they are shown a landing screen with a hero card at the top promoting a questionnaire for receiving a custom lessons module for beginners. The second half of the page contained a list of books and manuals offered for purchase or download.
@@ -265,7 +283,7 @@
             However, this leaves a hole in the content when the user completes the module. Would the hero section stay there? Would it allow the user to re-take the questionnaire? It was clear this needed revision.
           </p>
 
-          <h4 class="med-text bold">Lesson Modules</h4>
+          <h4 class="subtitle">Lesson Modules</h4>
 
           <p class="paragraph small-text">
             The getting-started modules came in two forms that users can choose from: an immersive, interactive tutorial, or reading through the learning points at their own pace.
@@ -274,7 +292,7 @@
             However, this was not very well integrated, which made the two options feel disconnected rather than part of the same learning module. Furthermore, the immersive tutorial was still too linear as a learning method.
           </p>
 
-          <h4 class="med-text bold">Vocabulary</h4>
+          <h4 class="subtitle">Vocabulary</h4>
 
           <p class="paragraph small-text">
             Our proposed solution for tackling the jargon of Dungeons & Dragons was tooltips that would pop-up with a definition when the highlighted word was tapped. However, this posed a usability issue for 2 reasons: it looked too much like a link, and it would clash where a vocab word was already part of another interactive element (for example, the questionnaire options).
@@ -288,7 +306,7 @@
           </div>
           <!-- // Section Header -->
 
-          <h4 class="med-text bold">Onboarding</h4>
+          <h4 class="subtitle">Onboarding</h4>
 
           <p class="paragraph small-text">
             One pain point was that D&D Beyond lacked an onboarding experience, making it unclear what the app offers. As a result, I designed a short, 2-page onboarding sequence that leads into a questionnaire offering custom tutorials for getting started. There is also the option to skip this and go directly to the app, for seasoned veterans of the game.
@@ -311,7 +329,7 @@
           </div>
 
           <p class="paragraph small-text">
-            However, for newcomers, the questionnaire focuses on their previous roleplaying experience, as well as what areas of Dungeons & Dragons they’re specifically interested in. This helps provide a personalized getting-started experience, which can help engage a newcomer more deeply with the world of the game from the get-go. Furthermore, if there is any vocabulary that the user may not be familiar with, they can select the tab at the bottom of the screen to read a brief description.
+            For newcomers, the questionnaire focuses on their previous roleplaying experience, as well as what areas of Dungeons & Dragons they’re specifically interested in. This helps provide a personalized getting-started experience, which can <strong>help engage a newcomer more deeply with the world of the game from the get-go</strong>. Furthermore, if there is any vocabulary that the user may not be familiar with, they can select the tab at the bottom of the screen to read a brief description.
           </p>
 
           <div class="flexbox become-column">
@@ -336,7 +354,7 @@
             </div>
           </div>
 
-          <h4 class="med-text bold">Tutorials</h4>
+          <h4 class="subtitle top-margin-6rem">Tutorials Dashboard</h4>
 
           <p class="paragraph small-text">
             I redesigned the tutorials dashboard in order to have more information available upfront. This allows the user to easily scan through the page to find topics and tutorials they may be interested in, and to see at a glance which modules they've already completed.
@@ -359,34 +377,36 @@
 
           <div class="flexbox become-column">
             <div class="flex-third">
-              <img src="img/dnd/dash-default-lazyload.jpg" data-src="img/dnd/dash-default.png" alt="Default state of tutorial module" style="width: 100%" class="banner lazyload blur top-margin shadow">
+              <h4 class="bold no-margin-bottom">Default</h4>
+              <img src="img/dnd/dash-default-lazyload.jpg" data-src="img/dnd/dash-default.png" alt="Default state of tutorial module" style="width: 100%" class="banner lazyload blur shadow">
               <noscript>
-                <img src="img/dnd/dash-default.png" alt="Default state of tutorial module" class="img-header top-margin">
+                <img src="img/dnd/dash-default.png" alt="Default state of tutorial module" class="img-header">
               </noscript>
-              <h4 class="bold no-margin-top">Default</h4>
             </div>
             <div class="flex-third">
-              <img src="img/dnd/dash-inprogress-lazyload.jpg" data-src="img/dnd/dash-inprogress.png" alt="In-progress tutorial module" style="width: 100%" class="banner lazyload blur top-margin shadow">
+              <h4 class="bold no-margin-bottom">In-progress</h4>
+              <img src="img/dnd/dash-inprogress-lazyload.jpg" data-src="img/dnd/dash-inprogress.png" alt="In-progress tutorial module" style="width: 100%" class="banner lazyload blur shadow">
               <noscript>
-                <img src="img/dnd/dash-inprogress.png" alt="In-progress tutorial module" class="img-header top-margin">
+                <img src="img/dnd/dash-inprogress.png" alt="In-progress tutorial module" class="img-header">
               </noscript>
-              <h4 class="bold no-margin-top">In-progress</h4>
             </div>
             <div class="flex-third">
-              <img src="img/dnd/dash-complete-lazyload.jpg" data-src="img/dnd/dash-complete.png" alt="Completed tutorial module with half opacity" style="width:100%" class="banner lazyload blur top-margin shadow">
+              <h4 class="bold no-margin-bottom">Completed</h4>
+              <img src="img/dnd/dash-complete-lazyload.jpg" data-src="img/dnd/dash-complete.png" alt="Completed tutorial module with half opacity" style="width:100%" class="banner lazyload blur shadow">
               <noscript>
-                <img src="img/dnd/dash-complete.png" alt="Completed tutorial module with half opacity" class="img-header top-margin">
+                <img src="img/dnd/dash-complete.png" alt="Completed tutorial module with half opacity" class="img-header">
               </noscript>
-              <h4 class="bold no-margin-top">Completed</h4>
             </div>
           </div>
 
+          <h4 class="subtitle top-margin-6rem">Immersive Scenario</h4>
+
           <p class="paragraph small-text">
-            Instead of being its own learning method, I changed the immersive scenario to a way to test the user’s knowledge on the learning points in that module. This removes the linearity of learning through the tutorial, while keeping the immersive narrative experience that drew many people into the Dungeons & Dragons world in the first place.
+            Instead of being a learning method, I changed the immersive scenario to a test of the user’s knowledge on the learning points in that module. This removes the linearity of learning through the tutorial, while keeping the immersive narrative experience that drew many people into the Dungeons & Dragons world in the first place.
           </p>
 
           <p class="paragraph small-text">
-            In the scenario, the user is required to choose actions based on the learning points from the module. Because Dungeons & Dragons is a game open to creativity and rule-bending, I chose not to include a “game over” state. Instead, the scenario continues with whatever option the user chooses, though with a reminder of the “suggested” option.
+            In the scenario, the user chooses actions based on the learning points from the module. Because Dungeons & Dragons is a game open to creativity and rule-bending, I chose not to include a “game over” state. Instead, the scenario continues with whatever option the user chooses, though with a reminder of the “suggested” option.
           </p>
 
           <div class="flexbox become-column">
@@ -410,7 +430,7 @@
             </div>
           </div>
 
-          <h4 class="med-text bold">Visual Language</h4>
+          <h4 class="subtitle top-margin-6rem">Visual Language</h4>
 
           <p class="paragraph small-text">
             We received feedback at the end of the course that our visual design was not representative of Dungeons & Dragons branding.
