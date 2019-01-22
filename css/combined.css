@@ -336,7 +336,7 @@ main {
   font-family: 'Open Sans', sans-serif; }
 
 .header-level1:hover {
-  color: #e87676; }
+  color: #3eb595; }
 
 .header-level2 {
   margin: 0 0 1rem 0;
@@ -417,27 +417,6 @@ main {
   -ms-grid-row-align: center;
   align-self: center;
   margin: 1rem; }
-
-.flex-nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  width: 100%;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between; }
-
-.flex-nav a {
-  -webkit-box-flex: 1;
-  -ms-flex: 1 1 auto;
-  flex: 1 1 auto;
-  padding: 1rem;
-  background-color: #323232;
-  -ms-flex-item-align: center;
-  -ms-grid-row-align: center;
-  align-self: center; }
 
 .flex-half {
   -webkit-box-flex: 1;
@@ -565,7 +544,7 @@ main {
   font-size: 1rem;
   font-family: 'Open Sans', sans-serif; }
 
-.nav-button {
+/* .nav-button {
   color: white;
   text-decoration: none;
   padding: 1rem;
@@ -574,23 +553,23 @@ main {
   border: none;
   font-size: 1.15rem;
   cursor: pointer;
-  font-family: 'Open Sans', sans-serif; }
-
+  font-family: 'Open Sans', sans-serif;
+} */
 .active {
   border-bottom: 2px solid #e87676; }
 
 .nav-link:hover, .nav-link:focus, .nav-button:hover, .nav-button:focus {
-  color: #E87676;
+  color: #3eb595;
   outline: none; }
 
 .intext-link {
-  color: #E87676;
+  color: #3eb595;
   text-decoration: none;
   letter-spacing: 0.05rem;
   /* font-weight: bolder; */ }
 
 .intext-link:hover, .intext-link:focus {
-  background-color: #E87676;
+  background-color: #3eb595;
   color: white; }
 
 .footer-link {
@@ -598,17 +577,17 @@ main {
 
 .button {
   padding: 0.75rem 2rem;
-  border: solid 0.125rem #e87676;
+  border: solid 0.125rem #3eb595;
   border-radius: 2rem;
   font-size: 1rem;
   text-align: center;
   font-weight: bold;
   letter-spacing: 0.05rem;
-  color: #e87676;
+  color: #3eb595;
   text-decoration: none; }
 
 .button:hover {
-  background-color: #e87676;
+  background-color: #3eb595;
   color: white;
   outline: none;
   -webkit-transition: all 0.3s ease;
@@ -789,8 +768,8 @@ strong {
   width: 100%;
   background-color: white; }
 
-.pink-text {
-  color: #e87676; }
+.accent-colour {
+  color: #3eb595; }
 
 .gray-text {
   color: #aaaaaa; }
@@ -876,6 +855,9 @@ strong {
   .top-margin-6rem {
     margin-top: 0; }
   .paragraph {
+    margin: 1rem;
+    padding: 0; }
+  .subtitle {
     margin: 1rem;
     padding: 0; }
   .side-padding {
