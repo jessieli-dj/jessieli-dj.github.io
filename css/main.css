@@ -32,7 +32,7 @@ main {
 }
 
 .header-level1:hover {
-  color: rgb(232, 118, 118);
+  color: rgb(62,181,149);
 }
 
 .header-level2 {
@@ -114,21 +114,6 @@ main {
   flex: 1 1 40%;
   align-self: center;
   margin: 1rem;
-}
-
-.flex-nav {
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-  justify-content: space-between;
-
-}
-
-.flex-nav a {
-  flex: 1 1 auto;
-  padding: 1rem;
-  background-color: rgb(50,50,50);
-  align-self: center;
 }
 
 .flex-half {
@@ -243,7 +228,7 @@ main {
   font-family: 'Open Sans', sans-serif;
 }
 
-.nav-button {
+/* .nav-button {
   color: white;
   text-decoration: none;
   padding: 1rem;
@@ -253,26 +238,26 @@ main {
   font-size: 1.15rem;
   cursor: pointer;
   font-family: 'Open Sans', sans-serif;
-}
+} */
 
 .active {
   border-bottom: 2px solid rgb(232, 118, 118);
 }
 
 .nav-link:hover, .nav-link:focus, .nav-button:hover, .nav-button:focus {
-  color: #E87676;
+  color: rgb(62,181,149);
   outline: none;
 }
 
 .intext-link {
-  color: #E87676;
+  color: rgb(62,181,149);
   text-decoration: none;
   letter-spacing: 0.05rem;
   /* font-weight: bolder; */
 }
 
 .intext-link:hover, .intext-link:focus {
-  background-color: #E87676;
+  background-color: rgb(62,181,149);
   color: white;
 }
 
@@ -282,18 +267,18 @@ main {
 
 .button {
   padding: 0.75rem 2rem;
-  border: solid 0.125rem rgb(232, 118, 118);
+  border: solid 0.125rem rgb(62,181,149);
   border-radius: 2rem;
   font-size: 1rem;
   text-align: center;
   font-weight: bold;
   letter-spacing: 0.05rem;
-  color: rgb(232, 118, 118);
+  color: rgb(62,181,149);
   text-decoration: none;
 }
 
 .button:hover {
-  background-color: rgb(232, 118, 118);
+  background-color: rgb(62,181,149);
   color: white;
   outline: none;
   -webkit-transition: all 0.3s ease;
@@ -485,9 +470,8 @@ strong {
   background-color: white;
 }
 
-
-.pink-text {
-  color: rgb(232, 118, 118);
+.accent-colour {
+  color: rgb(62,181,149);
 }
 
 .gray-text {
