@@ -6,11 +6,11 @@
 
 body {
   margin: auto;
-  background-color: #FAFAFA;
+  background-color: #F6F7F9;
 }
 
 header {
-  background-color: #FAFAFA;
+  background-color: #F6F7F9;
   padding: 1rem;
   display: flex;
   flex-wrap: wrap;

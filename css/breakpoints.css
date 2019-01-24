@@ -33,6 +33,10 @@
     flex-direction: column;
   }
 
+  .flex-half-right, .flex-half-left {
+    padding: 0 0.75rem;
+  }
+
 
 }
 
