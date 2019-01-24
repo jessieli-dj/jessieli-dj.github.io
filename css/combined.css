@@ -421,7 +421,8 @@ footer {
 .project {
   background-color: white;
   border-radius: 1rem;
-  min-height: 38rem; }
+  min-height: 38rem;
+  max-width: 35rem; }
 
 .project:hover {
   -webkit-box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -448,9 +449,14 @@ footer {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center; }
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start; }
+
+.flexbox-cards {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
 
 .flex-section {
   -webkit-box-flex: 1;
@@ -462,22 +468,22 @@ footer {
   margin: 1rem; }
 
 .flex-half {
-  -webkit-box-flex: 1;
-  -ms-flex: 1 1 40%;
-  flex: 1 1 40%;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
   padding: 0 2rem; }
 
 .flex-half-left {
   -webkit-box-flex: 1;
   -ms-flex: 1 1 40%;
   flex: 1 1 40%;
-  padding: 0 1rem 0 2rem; }
+  padding: 0 1rem 0 4rem; }
 
 .flex-half-right {
   -webkit-box-flex: 1;
   -ms-flex: 1 1 40%;
   flex: 1 1 40%;
-  padding: 0 2rem 0 1rem; }
+  padding: 0 4rem 0 1rem; }
 
 .flex-third {
   -webkit-box-flex: 1;
@@ -629,6 +635,10 @@ figcaption {
 .content-box {
   max-width: 50rem;
   margin-top: 30%;
+  margin: auto; }
+
+.content-box-home {
+  max-width: 100rem;
   margin: auto; }
 
 .about-me {
