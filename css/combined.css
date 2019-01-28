@@ -468,9 +468,9 @@ footer {
   margin: 1rem; }
 
 .flex-half {
-  -webkit-box-flex: 0;
-  -ms-flex: 0 1 auto;
-  flex: 0 1 auto;
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 40%;
+  flex: 1 1 40%;
   padding: 0 2rem; }
 
 .flex-half-left {

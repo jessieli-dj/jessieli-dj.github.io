@@ -157,7 +157,7 @@ footer {
 }
 
 .flex-half {
-  flex: 0 1 auto;
+  flex: 1 1 40%;
   padding: 0 2rem;
 }
 
