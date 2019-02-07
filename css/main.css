@@ -118,18 +118,72 @@ footer {
   max-width: 50rem;
 }
 
+#dnd-card {
+  background-color: #E6E4DD;
+}
+
+#linkedin-card {
+  background-color: #F6F7F9;
+}
+
 .project {
   background-color: white;
-  border-radius: 1rem;
-  min-height: 38rem;
-  max-width: 35rem;
+  /* min-height: 38rem; */
+  height: 28rem;
+  /* max-width: 20rem; */
+  overflow: hidden;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  padding: 2.5rem 3rem;
+  position: relative;
+}
+
+.project-img {
+  width: 100%;
+  display: block;
+  transform: translate3d(0,0.5rem,0);
+  margin: auto;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.project-text {
+  font-size: 0.85rem;
+  line-height: 1.15rem;
+}
+
+.project:hover .project-img {
+  transform: translate3d(0,-8rem,0);
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.project:hover .overlay {
+  opacity: 0.5;
 }
 
 .project:hover {
-  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  -webkit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
-  transition: all 0.3s ease;
+  /* box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+  /* opacity: 0.5; */
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: black;
 }
 
 /* Flexbox */
@@ -143,7 +197,7 @@ footer {
 .flexbox-home {
   display: flex;
   flex-wrap: wrap;
-  align-items: flex-start;
+  align-items: center;
 }
 
 .flexbox-cards{
@@ -162,18 +216,22 @@ footer {
 }
 
 .flex-half-left {
-  flex: 1 1 40%;
+  flex: 0 0 auto;
   padding: 0 1rem 0 4rem;
 }
 
 .flex-half-right {
-  flex: 1 1 40%;
+  flex: 0 0 auto;
   padding: 0 4rem 0 1rem;
 }
 
 .flex-third {
   flex: 1 1 30%;
   margin: 0.5rem;
+}
+
+.flex-third-home {
+  flex: 0 1 33.33%;
 }
 
 .flex-twothird {
@@ -313,7 +371,7 @@ figcaption {
 }
 
 .content-box-home {
-  max-width: 100rem;
+  max-width: 70rem;
   margin: auto;
 }
 
