@@ -424,6 +424,9 @@ footer {
 #linkedin-card {
   background-color: #F6F7F9; }
 
+#vmf-card {
+  background-color: #FFE8B2; }
+
 .project {
   background-color: white;
   /* min-height: 38rem; */
@@ -506,6 +509,20 @@ footer {
   -ms-flex-align: center;
   align-items: center; }
 
+.flexbox-home-horizontal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row; }
+
 .flexbox-cards {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
@@ -524,7 +541,7 @@ footer {
   -webkit-box-flex: 1;
   -ms-flex: 1 1 40%;
   flex: 1 1 40%;
-  padding: 0 2rem; }
+  margin: 0 2rem; }
 
 .flex-half-left {
   -webkit-box-flex: 0;
@@ -791,7 +808,7 @@ strong {
   /* background-color: white; */ }
 
 .accent-colour {
-  color: #3eb595; }
+  /* color: rgb(62,181,149); */ }
 
 .accent-background {
   background-color: #3eb595; }

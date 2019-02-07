@@ -126,6 +126,10 @@ footer {
   background-color: #F6F7F9;
 }
 
+#vmf-card {
+  background-color: #FFE8B2;
+}
+
 .project {
   background-color: white;
   /* min-height: 38rem; */
@@ -200,6 +204,13 @@ footer {
   align-items: center;
 }
 
+.flexbox-home-horizontal {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: row;
+}
+
 .flexbox-cards{
   justify-content: center;
 }
@@ -212,7 +223,7 @@ footer {
 
 .flex-half {
   flex: 1 1 40%;
-  padding: 0 2rem;
+  margin: 0 2rem;
 }
 
 .flex-half-left {
@@ -489,7 +500,7 @@ strong {
 }
 
 .accent-colour {
-  color: rgb(62,181,149);
+  /* color: rgb(62,181,149); */
 }
 
 .accent-background {
