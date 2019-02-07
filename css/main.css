@@ -119,10 +119,17 @@ footer {
 }
 
 .project {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    background-color: white;
-    border-radius: 1rem;
-    min-height: 38rem;
+  background-color: white;
+  border-radius: 1rem;
+  min-height: 38rem;
+  max-width: 35rem;
+}
+
+.project:hover {
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 /* Flexbox */
@@ -136,7 +143,11 @@ footer {
 .flexbox-home {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
+  align-items: flex-start;
+}
+
+.flexbox-cards{
+  justify-content: center;
 }
 
 .flex-section {
@@ -152,12 +163,12 @@ footer {
 
 .flex-half-left {
   flex: 1 1 40%;
-  padding: 0 1rem 0 2rem;
+  padding: 0 1rem 0 4rem;
 }
 
 .flex-half-right {
   flex: 1 1 40%;
-  padding: 0 2rem 0 1rem;
+  padding: 0 4rem 0 1rem;
 }
 
 .flex-third {
@@ -298,6 +309,11 @@ figcaption {
 .content-box{
   max-width: 50rem;
   margin-top: 30%;
+  margin: auto;
+}
+
+.content-box-home {
+  max-width: 100rem;
   margin: auto;
 }
 
