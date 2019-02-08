@@ -90,6 +90,11 @@ footer {
   padding: 0 3rem;
 }
 
+.date {
+  opacity: 0.5;
+  margin-top: 0;
+}
+
 .img-header {
   width: 100%;
   padding: 0;
@@ -123,7 +128,7 @@ footer {
 }
 
 #linkedin-card {
-  background-color: #F6F7F9;
+  background-color: #b3dfef;
 }
 
 #vmf-card {
@@ -133,13 +138,27 @@ footer {
 .project {
   background-color: white;
   /* min-height: 38rem; */
+  height: 27rem;
+  /* max-width: 20rem; */
+  overflow: hidden;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  padding: 1.5rem 2rem;
+  position: relative;
+  margin: 1rem;
+}
+
+.project-hero {
+  background-color: white;
+  /* min-height: 38rem; */
   height: 28rem;
   /* max-width: 20rem; */
   overflow: hidden;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   transition: all 0.5s ease;
-  padding: 2.5rem 3rem;
+  padding: 2.5rem 0 2.5rem 3rem;
   position: relative;
 }
 
@@ -156,6 +175,7 @@ footer {
 .project-text {
   font-size: 0.85rem;
   line-height: 1.15rem;
+  margin-top: 0;
 }
 
 .project:hover .project-img {
@@ -198,12 +218,6 @@ footer {
   align-items: center;
 }
 
-.flexbox-home {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-}
-
 .flexbox-home-horizontal {
   display: flex;
   flex-wrap: wrap;
@@ -223,7 +237,11 @@ footer {
 
 .flex-half {
   flex: 1 1 40%;
-  margin: 0 2rem;
+  margin: 0 2rem 0 0;
+}
+
+.flex-half-home{
+  flex: 0 1 50%;
 }
 
 .flex-half-left {
@@ -232,8 +250,9 @@ footer {
 }
 
 .flex-half-right {
-  flex: 0 0 auto;
-  padding: 0 4rem 0 1rem;
+  flex: 1 1 50%;
+  padding: 1rem 0;
+  /* height: 100%; */
 }
 
 .flex-third {
@@ -382,7 +401,7 @@ figcaption {
 }
 
 .content-box-home {
-  max-width: 70rem;
+  max-width: 50rem;
   margin: auto;
 }
 
@@ -500,7 +519,7 @@ strong {
 }
 
 .accent-colour {
-  /* color: rgb(62,181,149); */
+  color: rgb(62,181,149);
 }
 
 .accent-background {

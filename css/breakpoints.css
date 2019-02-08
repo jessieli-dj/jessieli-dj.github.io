@@ -33,6 +33,10 @@
     flex-direction: column;
   }
 
+  .project {
+    margin: 0;
+  }
+
   .flex-half-right, .flex-half-left {
     padding: 0 0.75rem;
   }
