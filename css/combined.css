@@ -436,6 +436,7 @@ footer {
   /* min-height: 38rem; */
   height: 27rem;
   /* max-width: 20rem; */
+  border-radius: 0.25rem;
   overflow: hidden;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
