@@ -1,7 +1,7 @@
 * {
   font-family: 'Rubik', sans-serif;
   color: #414042;
-  letter-spacing: 0.03rem;
+  letter-spacing: 0.01rem;
 }
 
 body {
@@ -75,6 +75,7 @@ footer {
   font-size: 1.15rem;
   line-height: 2rem;
   font-weight: 700;
+  padding-bottom: 0;
 }
 
 .project-title {
@@ -87,7 +88,6 @@ footer {
   font-size: 1.15rem;
   line-height: 2rem;
   font-weight: 700;
-  padding: 0 3rem;
 }
 
 .date {
@@ -257,8 +257,8 @@ footer {
 }
 
 .flex-third {
-  flex: 1 1 30%;
-  margin: 0.5rem;
+  flex: 1 1 20%;
+  margin: 0.75rem;
 }
 
 .flex-third-home {
@@ -266,8 +266,8 @@ footer {
 }
 
 .flex-twothird {
-  flex: 1 1 60%;
-  margin-right: 2rem;
+  flex: 1 1 70%;
+  margin-right: 1rem;
 }
 
 .flex-quarter {
@@ -382,7 +382,6 @@ footer {
 
 .paragraph {
   letter-spacing: 0.02rem;
-  padding: 0 3rem;
 }
 
 figcaption {
@@ -491,8 +490,8 @@ strong {
 }
 
 .small-text {
-  font-size: 1.05rem;
-  line-height: 1.75rem;
+  font-size: 0.9rem;
+  line-height: 1.25rem;
 }
 
 .med-text {
@@ -501,12 +500,12 @@ strong {
 }
 
 .big-text {
-  font-size: 3.75rem;
+  font-size: 2.75rem;
   font-weight: 500;
 }
 
 .contact-text{
-  font-size: 1.75rem;
+  font-size: 1rem;
   line-height: 2.5rem;
 }
 
@@ -560,7 +559,7 @@ strong {
 }
 
 .border-bottom {
-  border-bottom: 2px solid rgb(50,50,50);
+  border-bottom: 1px solid rgb(200,200,200);
 }
 
 .shadow {
@@ -579,4 +578,11 @@ strong {
 
 .bold {
   font-weight: 700;
+}
+
+.card {
+  background-color: white;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  margin-top: 1rem;
 }
