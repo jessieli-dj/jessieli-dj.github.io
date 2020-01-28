@@ -312,18 +312,21 @@ body {
 
 header {
   background-color: #F6F7F9;
-  padding: 1rem;
+  padding: 1rem 10rem 1rem 10rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center; }
+
+h1 {
+  margin-bottom: 0.5rem; }
 
 main {
   min-height: 100vh; }
@@ -363,7 +366,7 @@ footer {
 
 /* Headers */
 .header-level1 {
-  color: #3eb595;
+  color: #63C161;
   margin: 0;
   font-size: 1.25rem;
   font-family: 'Open Sans', sans-serif; }
@@ -416,7 +419,7 @@ footer {
   padding-top: 10%;
   padding-bottom: 5%;
   margin: auto;
-  max-width: 45rem; }
+  max-width: 40rem; }
 
 .home-section {
   position: absolute;
@@ -668,7 +671,7 @@ footer {
 
 /* Interactive Elements */
 .nav-link {
-  color: #3eb595;
+  color: #63C161;
   text-decoration: none;
   padding: 1rem;
   font-size: 1rem; }
@@ -731,7 +734,8 @@ figcaption {
 
 .about-me {
   line-height: 1.5rem;
-  letter-spacing: 0.02rem; }
+  letter-spacing: 0.02rem;
+  margin-top: 0.75rem; }
 
 #home-header {
   max-width: 30rem; }
@@ -806,8 +810,8 @@ strong {
   line-height: 2rem; }
 
 .big-text {
-  font-size: 2.75rem;
-  font-weight: 500; }
+  font-size: 2rem;
+  font-weight: 200; }
 
 .contact-text {
   font-size: 1rem;
@@ -871,8 +875,8 @@ strong {
 
 .card {
   background-color: white;
-  border-radius: 1rem;
-  padding: 0.5rem;
+  border-radius: 0.25rem;
+  /* padding: 0.5rem; */
   margin-top: 1rem; }
 
 @media (max-width: 80rem) {

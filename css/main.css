@@ -11,11 +11,15 @@ body {
 
 header {
   background-color: #F6F7F9;
-  padding: 1rem;
+  padding: 1rem 10rem 1rem 10rem;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content:flex-end;
   align-items: center;
+}
+
+h1 {
+  margin-bottom: 0.5rem;
 }
 
 main {
@@ -50,11 +54,13 @@ footer {
 /* Headers */
 
 .header-level1 {
-  color: rgb(62,181,149);
+  color: #63C161;
   margin: 0;
   font-size: 1.25rem;
   font-family: 'Open Sans', sans-serif;
 }
+
+
 
 .header-level1:hover {
   color: gray;
@@ -115,7 +121,7 @@ footer {
   padding-top: 10%;
   padding-bottom: 5%;
   margin: auto;
-  max-width: 45rem;
+  max-width: 40rem;
 }
 
 .home-section {
@@ -333,7 +339,7 @@ footer {
 /* Interactive Elements */
 
 .nav-link {
-  color: rgb(62,181,149);
+  color: #63C161;
   text-decoration: none;
   padding: 1rem;
   font-size: 1rem;
@@ -408,6 +414,7 @@ figcaption {
 .about-me {
   line-height: 1.5rem;
   letter-spacing: 0.02rem;
+  margin-top: 0.75rem;
 }
 
 #home-header {
@@ -500,8 +507,8 @@ strong {
 }
 
 .big-text {
-  font-size: 2.75rem;
-  font-weight: 500;
+  font-size: 2rem;
+  font-weight: 200;
 }
 
 .contact-text{
@@ -582,7 +589,7 @@ strong {
 
 .card {
   background-color: white;
-  border-radius: 1rem;
-  padding: 0.5rem;
+  border-radius: 0.25rem;
+  /* padding: 0.5rem; */
   margin-top: 1rem;
 }
