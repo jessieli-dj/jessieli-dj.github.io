@@ -30,7 +30,7 @@ footer {
   background-color: #2B2B2B;
   padding: 3rem 25%;
   justify-content:space-between;
-  margin-top: 2rem;
+  margin-top: 5rem;
   display: flex;
 }
 
@@ -40,6 +40,8 @@ footer {
 
 .footer-list {
   margin-top: 0;
+  padding: 0;
+  margin-left: 2rem;
   list-style-type: none;
   flex: 1 1 auto;
 }
@@ -58,6 +60,10 @@ footer {
   flex: 1 1 auto;
   margin-top: 0.15rem;
   font-weight:lighter;
+}
+
+.footer-header::after{
+  content: " ―"
 }
 
 .footer-bottom-centered {
@@ -524,13 +530,15 @@ strong {
 }
 
 .small-text {
-  font-size: 0.9rem;
+  font-size: 1rem;
   line-height: 1.25rem;
+  font-family: 'Roboto', 'Rubik', sans-serif;
 }
 
 .med-text {
   font-size: 1.15rem;
   line-height: 2rem;
+  font-family: 'Roboto', 'Rubik', sans-serif;
 }
 
 .big-text {
