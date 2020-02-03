@@ -1,5 +1,5 @@
 * {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Mada', sans-serif;
   color: #414042;
   letter-spacing: 0.01rem;
 }
@@ -16,6 +16,12 @@ header {
   flex-wrap: wrap;
   justify-content:flex-end;
   align-items: center;
+}
+
+.case-study {
+  background-color: #63C161;
+  justify-content: space-between;
+  padding: 0 10rem;
 }
 
 h1 {
@@ -94,8 +100,6 @@ footer {
   font-size: 1.25rem;
   font-family: 'Open Sans', sans-serif;
 }
-
-
 
 .header-level1:hover {
   color: gray;
@@ -378,23 +382,31 @@ footer {
   font-size: 1rem;
 }
 
+.case-nav-link {
+  color: white;
+  text-decoration: none;
+  padding: 1rem;
+  font-size: 1rem;
+  margin: 0;
+}
+
 .active {
   border-bottom: 2px solid rgb(232, 118, 118);
 }
 
-.nav-link:hover, .nav-link:focus, .nav-button:hover, .nav-button:focus {
+.nav-link:hover, .nav-link:focus, .case-nav-link:hover, .case-nav-link:focus, .nav-button:hover, .nav-button:focus {
   color: gray;
   outline: none;
 }
 
 .intext-link {
-  color: rgb(62,181,149);
+  color: #63C161;
   text-decoration: none;
   letter-spacing: 0.05rem;
 }
 
 .intext-link:hover, .intext-link:focus {
-  background-color: rgb(62,181,149);
+  background-color: #63C161;
   color: white;
 }
 
@@ -513,8 +525,8 @@ strong {
   margin-bottom: 2rem;
 }
 
-.top-margin-6rem {
-  margin-top: 6rem;
+.top-margin-10rem {
+  margin-top: 10rem;
 }
 
 .bottom-margin-6rem {
@@ -533,17 +545,20 @@ strong {
   font-size: 1rem;
   line-height: 1.25rem;
   font-family: 'Roboto', 'Rubik', sans-serif;
+  color: rgba(0,0,0,0.7);
 }
 
 .med-text {
   font-size: 1.15rem;
   line-height: 2rem;
   font-family: 'Roboto', 'Rubik', sans-serif;
+  color: rgba(0,0,0,0.7);
 }
 
 .big-text {
   font-size: 2rem;
   font-weight: 200;
+  color: rgba(0,0,0,0.7);
 }
 
 .contact-text{
@@ -625,6 +640,6 @@ strong {
 .card {
   background-color: white;
   border-radius: 0.25rem;
-  /* padding: 0.5rem; */
+  padding: 0.5rem;
   margin-top: 1rem;
 }

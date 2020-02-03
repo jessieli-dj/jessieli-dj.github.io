@@ -303,7 +303,7 @@ template {
   display: none; }
 
 * {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Mada', sans-serif;
   color: #414042;
   letter-spacing: 0.01rem; }
 
@@ -325,6 +325,13 @@ header {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center; }
+
+.case-study {
+  background-color: #63C161;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0 10rem; }
 
 h1 {
   margin-bottom: 0.5rem; }
@@ -707,20 +714,27 @@ footer {
   padding: 1rem;
   font-size: 1rem; }
 
+.case-nav-link {
+  color: white;
+  text-decoration: none;
+  padding: 1rem;
+  font-size: 1rem;
+  margin: 0; }
+
 .active {
   border-bottom: 2px solid #e87676; }
 
-.nav-link:hover, .nav-link:focus, .nav-button:hover, .nav-button:focus {
+.nav-link:hover, .nav-link:focus, .case-nav-link:hover, .case-nav-link:focus, .nav-button:hover, .nav-button:focus {
   color: gray;
   outline: none; }
 
 .intext-link {
-  color: #3eb595;
+  color: #63C161;
   text-decoration: none;
   letter-spacing: 0.05rem; }
 
 .intext-link:hover, .intext-link:focus {
-  background-color: #3eb595;
+  background-color: #63C161;
   color: white; }
 
 .button {
@@ -820,8 +834,8 @@ strong {
 .additional-bottom-margin {
   margin-bottom: 2rem; }
 
-.top-margin-6rem {
-  margin-top: 6rem; }
+.top-margin-10rem {
+  margin-top: 10rem; }
 
 .bottom-margin-6rem {
   margin-bottom: 6rem; }
@@ -835,16 +849,19 @@ strong {
 .small-text {
   font-size: 1rem;
   line-height: 1.25rem;
-  font-family: 'Roboto', 'Rubik', sans-serif; }
+  font-family: 'Roboto', 'Rubik', sans-serif;
+  color: rgba(0, 0, 0, 0.7); }
 
 .med-text {
   font-size: 1.15rem;
   line-height: 2rem;
-  font-family: 'Roboto', 'Rubik', sans-serif; }
+  font-family: 'Roboto', 'Rubik', sans-serif;
+  color: rgba(0, 0, 0, 0.7); }
 
 .big-text {
   font-size: 2rem;
-  font-weight: 200; }
+  font-weight: 200;
+  color: rgba(0, 0, 0, 0.7); }
 
 .contact-text {
   font-size: 1rem;
@@ -909,7 +926,7 @@ strong {
 .card {
   background-color: white;
   border-radius: 0.25rem;
-  /* padding: 0.5rem; */
+  padding: 0.5rem;
   margin-top: 1rem; }
 
 @media (max-width: 80rem) {
