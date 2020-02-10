@@ -1,6 +1,6 @@
 jQuery(document).ready(function() {
   var durationtime = 500;
-  var offset = 220;
+  var offset = 1220;
   jQuery(window).scroll(function() {
     if (jQuery(this).scrollTop() > offset) {
       jQuery('.back-to-top').fadeIn(durationtime);
