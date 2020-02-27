@@ -714,6 +714,9 @@ footer {
   font-size: 1rem;
 }
 
+nav .nav-link {
+  font-size: 0.85rem; }
+
 .case-nav-link {
   color: white;
   text-decoration: none;
@@ -721,6 +724,9 @@ footer {
   font-size: 1rem;
   margin: 0;
 }
+
+nav .case-nav-link {
+  font-size: 0.85rem; }
 
 .active {
   border-bottom: 2px solid rgb(232, 118, 118);

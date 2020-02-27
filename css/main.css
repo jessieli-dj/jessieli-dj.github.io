@@ -299,12 +299,20 @@ footer {
   font-size: 1rem;
 }
 
+nav .nav-link {
+  font-size: 0.85rem;
+}
+
 .case-nav-link {
   color: white;
   text-decoration: none;
   padding: 1rem;
   font-size: 1rem;
   margin: 0;
+}
+
+nav .case-nav-link {
+  font-size: 0.85rem;
 }
 
 .active {
