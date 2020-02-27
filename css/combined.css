@@ -348,7 +348,7 @@ body {
 
 header {
   background-color: #F6F7F9;
-  padding: 0rem 15rem;
+  padding: 2rem 15rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -363,7 +363,7 @@ header {
 }
 
 .case-study {
-  background-color: #63C161;
+  background-color: #803F74;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -408,8 +408,8 @@ footer {
 .footer-list-item {
   color: white;
   margin-bottom: 0.75rem;
-  font-size: 0.75rem;
-  font-family: "Roboto", "Rubik", sans-serif;
+  font-size: 1rem;
+  /* font-family: 'Roboto', 'Rubik', sans-serif; */
   font-weight: 100;
 }
 
@@ -420,7 +420,6 @@ footer {
       -ms-flex: 1 1 auto;
           flex: 1 1 auto;
   margin-top: 0.15rem;
-  font-weight: lighter;
 }
 
 .footer-header::after {
@@ -454,7 +453,7 @@ footer {
 
 /* Headers */
 .header-level1 {
-  color: #63C161;
+  color: rgba(255, 255, 255, 0.5);
   margin: 0;
   font-size: 1.25rem;
   font-family: "Mada", sans-serif;
@@ -476,18 +475,18 @@ footer {
 }
 
 .header-level4 {
-  font-size: 0.8rem;
+  font-size: 1.5rem;
   line-height: 2rem;
   font-weight: 700;
-  margin-bottom: 0;
-  color: #808080;
+  margin-bottom: 0.5rem;
+  color: #4d4d4d;
 }
 
 .project-title {
   font-size: 2.75rem;
   margin-top: 0;
   margin-bottom: 1rem;
-  color: #63C161;
+  color: #2B2B2B;
   font-weight: 700;
 }
 
@@ -708,26 +707,19 @@ footer {
 
 /* Interactive Elements */
 .nav-link {
-  color: #63C161;
+  color: #6A75D4;
   text-decoration: none;
   padding: 1rem;
   font-size: 1rem;
 }
 
-nav .nav-link {
-  font-size: 0.85rem; }
-
-.case-nav-link {
+/* .case-nav-link {
   color: white;
   text-decoration: none;
   padding: 1rem;
   font-size: 1rem;
   margin: 0;
-}
-
-nav .case-nav-link {
-  font-size: 0.85rem; }
-
+} */
 .active {
   border-bottom: 2px solid rgb(232, 118, 118);
 }
@@ -738,14 +730,15 @@ nav .case-nav-link {
 }
 
 .intext-link {
-  color: #63C161;
+  color: #6A75D4;
   text-decoration: none;
-  letter-spacing: 0.05rem;
-  padding: 0.25rem 0;
+  /* letter-spacing: 0.05rem; */
+  padding: 0.25rem;
+  font-weight: 500;
 }
 
 .intext-link:hover, .intext-link:focus {
-  background-color: #63C161;
+  background-color: #6A75D4;
   color: white;
 }
 
@@ -864,7 +857,6 @@ figcaption {
 
 strong {
   font-weight: bold;
-  font-family: "Roboto", sans-serif;
 }
 
 .additional-bottom-margin {
@@ -894,22 +886,35 @@ strong {
 .small-text {
   font-size: 1rem;
   line-height: 1.25rem;
-  font-family: "Roboto", sans-serif;
-  color: rgba(0, 0, 0, 0.6);
+  font-family: "Mada", sans-serif;
+  color: rgba(0, 0, 0, 0.5);
+  margin-top: 0;
+  font-weight: 500;
 }
 
 .med-text {
   font-size: 1.15rem;
   line-height: 1.5rem;
-  font-family: "Roboto", sans-serif;
-  color: rgba(0, 0, 0, 0.6);
+  font-family: "Mada", sans-serif;
+  color: rgba(0, 0, 0, 0.5);
   margin-top: 0;
+  font-weight: 500;
 }
 
-.big-text {
-  font-size: 2rem;
-  font-weight: 200;
-  color: rgba(0, 0, 0, 0.6);
+.quote {
+  font-size: 1.5rem;
+  line-height: 1.75rem;
+  font-family: "Mada", sans-serif;
+  color: #6A75D4;
+  margin-top: 0;
+  font-weight: 500;
+  font-style: italic;
+  text-decoration: none;
+  padding: 1rem 4rem;
+}
+
+.quote:hover, .quote:focus {
+  color: #A6ADEE;
 }
 
 .contact-text {
