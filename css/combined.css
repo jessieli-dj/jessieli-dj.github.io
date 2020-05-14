@@ -6,6 +6,8 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
+@import 'text.css';
+@import 'links.css';
 html {
   line-height: 1.15;
   /* 1 */
@@ -451,18 +453,54 @@ footer {
 }
 
 /* Headers */
-.blurb-header {
-  font-size: 1rem;
-  font-weight: 600;
-  color: #4d4d4d;
-}
-
 .paragraph-header {
   font-size: 1.5rem;
   line-height: 2rem;
   font-weight: 700;
   margin-bottom: 0.5rem;
   color: #4d4d4d;
+}
+
+.project {
+  -webkit-box-shadow: 0.5rem 0.5rem #2B2B2B;
+          box-shadow: 0.5rem 0.5rem #2B2B2B;
+  border: #2B2B2B 2px solid;
+  margin-top: 2rem;
+  padding: 2rem 2rem 2rem 2rem;
+  -webkit-transition: all 0.45s ease;
+  -o-transition: all 0.45s ease;
+  transition: all 0.45s ease;
+}
+
+.project:hover {
+  -webkit-transform: translate3d(-0.5rem, -0.5rem, 0);
+          transform: translate3d(-0.5rem, -0.5rem, 0);
+  -webkit-box-shadow: 1rem 1rem #2B2B2B;
+          box-shadow: 1rem 1rem #2B2B2B;
+  -webkit-transition: all 0.45s ease;
+  -o-transition: all 0.45s ease;
+  transition: all 0.45s ease;
+}
+
+.project-two {
+  -webkit-box-shadow: -0.5rem 0.5rem #2B2B2B;
+          box-shadow: -0.5rem 0.5rem #2B2B2B;
+  border: #2B2B2B 2px solid;
+  margin-top: 2rem;
+  padding: 2rem 2rem 2rem 2rem;
+  -webkit-transition: all 0.45s ease;
+  -o-transition: all 0.45s ease;
+  transition: all 0.45s ease;
+}
+
+.project-two:hover {
+  -webkit-transform: translate3d(0.5rem, -0.5rem, 0);
+          transform: translate3d(0.5rem, -0.5rem, 0);
+  -webkit-box-shadow: -1rem 1rem #2B2B2B;
+          box-shadow: -1rem 1rem #2B2B2B;
+  -webkit-transition: all 0.45s ease;
+  -o-transition: all 0.45s ease;
+  transition: all 0.45s ease;
 }
 
 .project-title {
@@ -482,8 +520,8 @@ footer {
 }
 
 .img-header {
-  width: 100%;
-  padding: 0;
+  width: 90%;
+  padding: 0 3rem;
 }
 
 /* Flexbox */
@@ -561,31 +599,6 @@ footer {
 .home section {
   border: none;
   margin: 0;
-}
-
-/* Interactive Elements */
-.nav-link {
-  color: #6A75D4;
-  text-decoration: none;
-  padding: 1rem;
-  font-size: 1rem;
-}
-
-.active {
-  border-bottom: 2px solid rgb(232, 118, 118);
-}
-
-.nav-link:hover, .nav-link:focus, .case-nav-link:hover, .case-nav-link:focus, .nav-button:hover, .nav-button:focus {
-  color: #BEA6D3;
-}
-
-.intext-link {
-  color: #6A75D4;
-  text-decoration: none;
-}
-
-.intext-link:hover, .intext-link:focus {
-  color: #BEA6D3;
 }
 
 .img-artefact {
@@ -688,15 +701,6 @@ strong {
 
 .margin-left {
   margin-left: 5rem;
-}
-
-.blurb-text {
-  font-size: 1rem;
-  line-height: 1.25rem;
-  font-family: "Mada", sans-serif;
-  color: rgba(0, 0, 0, 0.5);
-  margin-top: 0;
-  font-weight: 500;
 }
 
 .paragraph {
@@ -869,7 +873,7 @@ strong {
   }
 
   .project {
-    margin: 0;
+    padding-bottom: 3rem;
   }
 
   .flex-half-right, .flex-half-left {
@@ -934,4 +938,15 @@ strong {
   .home-section {
     position: relative;
   }
+}
+.spacer-small-horizontal {
+  height: 2rem;
+}
+
+.spacer-horizontal {
+  height: 3rem;
+}
+
+.spacer-large-horizontal {
+  height: 5rem;
 }

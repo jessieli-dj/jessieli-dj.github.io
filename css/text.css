@@ -1,0 +1,31 @@
+#intro-text {
+  line-height:2rem;
+  font-size:1.75rem;
+  color: rgb(150,150,150);
+}
+
+#home-header {
+  color: rgba(0,0,0);
+  font-size: 1.5rem;
+  flex: 1 1 auto;
+  margin-top: 0.15rem;
+}
+
+#home-header::after{
+  content: " ―"
+}
+
+.blurb-header {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #000000;
+}
+
+.blurb-text {
+  font-size: 1rem;
+  line-height: 1.25rem;
+  font-family: 'Mada', sans-serif;
+  color: rgba(0,0,0,0.5);
+  margin-top: 0;
+  font-weight: 400;
+}
