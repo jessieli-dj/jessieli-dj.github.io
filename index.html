@@ -24,112 +24,140 @@
   </head>
 
   <body>
-    <header>
+    <!-- <header class="content-box-wide">
       <a href="index.html" class="no-decoration"><h1 class="nav-link">Jessie Li</h1></a>
-      <nav>
-        <a href="about.html" class="nav-link">About</a>
-      </nav>
-    </header>
+    </header> -->
 
     <!-- Page Content // -->
     <main>
 
-      <!-- <a class="back-to-top">⇧</a> -->
-
+      <div class="spacer-large-horizontal"></div>
       <!-- Introduction section // -->
-      <section class="content-box-wide top-margin-large">
+      <section class="content-box-wide">
         <!-- Introduction // -->
-        <a href="about.html"><img src="img/me.png" alt="cartoon icon of Jessie Li" style="position:fixed;left:0;bottom:0;max-width:5rem;" class="cartoon"></a>
-        <h1 class="big-text">Hey. I'm <span class="bold">Jessie Li</span>.</h1>
-        <p id="intro-text">I’m a <span class="bold">UX / interaction designer</span> with a lot of curiosity and the drive to find the “why” instead of the “what”. Previously at Nokia.</p>
+
+        <!-- <p id="intro-text">I’m a <span class="bold">UX / interaction designer</span> with a lot of curiosity and the drive to find the “why” instead of the “what”. Previously at Nokia.</p> -->
+      </section>
+
+
+      <section class="content-box-wide flexbox become-column-home">
+        <div class="flex-half-home flex-offset-bottom">
+          <img src="img/me.png" alt="cartoon icon of Jessie Li" style="max-width:20rem;">
+        </div>
+
+        <!-- Introduction section // -->
+        <div class="flex-half-home flex-offset-top">
+          <!-- Introduction // -->
+          <h1 class="big-text">Hey. I'm <span class="bold">Jessie Li</span>!</h1>
+          <p class="paragraph">I’m a <b>UX/interaction</b> designer with a focus on research-driven design and storytelling to create down-to-earth products.<p>
+          <p class="paragraph">My hobbies include reading sci-fi and fantasy novels, trying out new recipes, and losing really badly at Catan. </p>
+          <h2 class="contact-text">Interested in chatting? Connect with me on <a class="intext-link" href="https://www.linkedin.com/in/jessie-li-82170291/" target="_blank">LinkedIn</a> or shoot me an email at <a class="intext-link" href="mailto:lidel@sfu.ca" target="_blank">lidel@sfu.ca</a>.</h2>
+
+        </div>
       </section>
 
       <!-- // Introduction section -->
 
+      <div class="spacer-large-horizontal"></div>
 
       <!-- Recent works // -->
 
-      <section class="content-box-wide top-margin-large">
+      <section class="content-box-wide">
 
-        <h1 id="home-header">RECENT EXPERIENCE</h1>
+        <h1 class="home-header">RECENT EXPERIENCE</h1>
 
-        <div class="spacer-small-horizontal"></div>
+        <div class="flexbox become-column-home">
+            <a href="nokia.html" style="text-decoration:none"  class="project flex-half-home flex-offset-bottom">
+              <img src="img/nokia/home.svg" alt="Picture of two screens with interfaces" class="img-header">
+              <div style="padding:0 2rem 3rem 2rem">
+                <h2 class="blurb-header">Nokia Internship</h2>
 
-          <div class="flexbox flex-centered become-column project">
-            <div class="flex-half">
-              <picture>
-                <a href="nokia.html">
-                <source srcset="img/nokia/home.svg">
-                <img src="img/nokia/home.svg" alt="Picture of two screens with interfaces" class="img-header">
-                </a>
-              </picture>
-            </div>
-            <div class="flex-half">
-              <h2 class="blurb-header">Nokia Internship</h2>
-              <p class="blurb-text">Designing interactions for an expert technical user and all the research, design consideration, and challenge that comes with it.</p>
-              <div class="spacer-small-horizontal"></div>
-              <a href="nokia.html" class="cta-button">READ CASE STUDY</a>
-            </div>
-          </div>
-
-          <div class="spacer-horizontal"></div>
-
-        <div class="flexbox flex-centered become-column project-two">
-          <div class="flex-half">
+                <p class="blurb-text">Designing interactions for an expert technical user and all the research, design consideration, and challenge that comes with it.</p>
+                <div class="spacer-small-horizontal"></div>
+                <div class="flexbox">
+                  <div class="chip">💻 Web</div>
+                  <div class="chip">🚀 Shipped</div>
+                </div>
+                <!-- <a href="nokia.html" class="cta-button">READ CASE STUDY</a> -->
+              </div>
+            </a>
+          <div class="project flex-half-home flex-offset-top">
             <picture>
               <a href="tumblershare.html">
               <source srcset="img/tumblershare/home.png">
               <img src="img/tumblershare/home.png" alt="Image of two mobile app screens" class="img-header">
               </a>
             </picture>
-          </div>
-          <div class="flex-half">
-            <h2 class="blurb-header">TumblerShare</h2>
-            <p class="blurb-text">It’s never been so easy to say “no” to disposable cups, thanks to our digital tumbler sharing economy.</p>
-            <div class="spacer-small-horizontal"></div>
-            <a href="nokia.html" class="cta-button">READ CASE STUDY</a>
+              <div style="padding:0 2rem 3rem 2rem">
+                <div class="flexbox">
+                  <div class="chip">📱 Mobile</div>
+                  <div class="chip">🚀 Shipped</div>
+                </div>
+                <h2 class="blurb-header">TumblerShare</h2>
+                <p class="blurb-text">It’s never been so easy to say “no” to disposable cups, thanks to our digital tumbler sharing economy.</p>
+                <!-- <div class="spacer-small-horizontal"></div>
+                <a href="nokia.html" class="cta-button">READ CASE STUDY</a> -->
+              </div>
           </div>
         </div>
 
-        <div class="spacer-horizontal"></div>
+        <div class="flexbox become-column-home flex-home-offset">
+          <div class="project flex-half-home flex-offset-bottom">
+              <picture>
+                <a href="nokia.html">
+                <source srcset="img/nokia/home.svg">
+                <img src="img/nokia/home.svg" alt="Picture of two screens with interfaces" class="img-header">
+                </a>
+              </picture>
+              <div style="padding:0 2rem 3rem 2rem">
 
-        <div class="flexbox flex-centered become-column project">
-          <div class="flex-half">
-            <picture>
-              <a href="vmf.html">
-              <source srcset="img/vmf/home-image.svg">
-              <img src="img/vmf/home-image.svg" alt="Vancouver Mural Festival Classroom Kit mural passport" class="img-header">
-              </a>
-            </picture>
+                <h2 class="blurb-header">Nokia Internship</h2>
+                <p class="blurb-text">Designing interactions for an expert technical user and all the research, design consideration, and challenge that comes with it.</p>
+                <!-- <div class="spacer-small-horizontal"></div>
+                <a href="nokia.html" class="cta-button">READ CASE STUDY</a> -->
+              </div>
           </div>
-          <div class="flex-half">
-            <h2 class="blurb-header">Vancouver Mural Festival Class Kit</h2>
-            <p class="blurb-text">Increasing engagement with local arts by sponsoring art lesson planning materials for teachers in the community.</p>
-            <div class="spacer-small-horizontal"></div>
-            <a href="nokia.html" class="cta-button">READ CASE STUDY</a>
+          <div class="project flex-half-home flex-offset-top">
+              <picture>
+                <a href="nokia.html">
+                <source srcset="img/nokia/home.svg">
+                <img src="img/nokia/home.svg" alt="Picture of two screens with interfaces" class="img-header">
+                </a>
+              </picture>
+              <div style="padding:0 2rem 3rem 2rem">
+
+                <h2 class="blurb-header">Vancouver Mural Festival Class Kit</h2>
+                <p class="blurb-text">Increasing engagement with local arts by sponsoring art lesson planning materials for teachers in the community.</p>
+                <!-- <div class="spacer-small-horizontal"></div>
+                <a href="nokia.html" class="cta-button">READ CASE STUDY</a> -->
+              </div>
           </div>
         </div>
-      </section>
+
+        <div class="spacer-large-horizontal"></div>
+
+
 
       <!--// Recent works -->
     </main>
-    <footer class="become-column">
-      <div class="footer-section become-column">
-        <h1 class="footer-header">CONTACT ME</h1>
-        <ul class="footer-list">
-          <li class="footer-list-item">lidel@sfu.ca</li>
-          <li class="footer-list-item"><a href="https://www.linkedin.com/in/jessie-li-82170291/" class="footer-link" target=”_blank”>LinkedIn</a></li>
-          <li class="footer-list-item">778-882-0202</li>
-        </ul>
-      </div>
-      <div class="footer-section become-column">
-        <h1 class="footer-header">READ ABOUT</h1>
-        <ul class="footer-list">
-          <li class="footer-list-item"><a href="nokia.html" class="footer-link">My Nokia Internship</a></li>
-          <li class="footer-list-item">TumblerShare</li>
-          <li class="footer-list-item"><a href="vmf.html" class="footer-link">VMF Classroom Kit</a></li>
-        </ul>
-      </div>
+    <footer class="become-column-home">
+        <div class="footer-section become-column-home">
+          <h1 class="footer-header">CONTACT ME</h1>
+          <ul class="footer-list">
+            <li class="footer-list-item">lidel@sfu.ca</li>
+            <li class="footer-list-item"><a href="https://www.linkedin.com/in/jessie-li-82170291/" class="footer-link" target=”_blank”>LinkedIn</a></li>
+            <li class="footer-list-item">778-882-0202</li>
+          </ul>
+        </div>
+        <div class="footer-section become-column-home">
+          <h1 class="footer-header">READ ABOUT</h1>
+          <ul class="footer-list">
+            <li class="footer-list-item"><a href="nokia.html" class="footer-link">My Nokia Internship</a></li>
+            <li class="footer-list-item">TumblerShare</li>
+            <li class="footer-list-item"><a href="vmf.html" class="footer-link">VMF Classroom Kit</a></li>
+          </ul>
+        </div>
+
     </footer>
     <!-- // Page Content -->
 

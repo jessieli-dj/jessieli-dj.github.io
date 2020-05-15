@@ -10,7 +10,7 @@ body {
 
 header {
   background-color: #F6F7F9;
-  padding: 2rem 15rem;
+  padding: 2rem 0;
   display: flex;
   flex-wrap: wrap;
   justify-content:space-between;
@@ -41,6 +41,7 @@ footer {
 
 .footer-section {
   display: flex;
+  margin-right: 1rem;
 }
 
 .footer-list {
@@ -102,31 +103,30 @@ footer {
   color: #4d4d4d;
 }
 
+.chip {
+  padding: 0.5rem 0.75rem;
+  text-decoration: none;
+  border-radius: 2rem;
+  font-size: 0.85rem;
+  color: #7FC286;
+  border: #7FC286 2px solid;
+  font-weight: 600;
+  max-width: 4.5rem;
+  text-align: center;
+  margin-right: 0.5rem;
+}
+
 .project {
-  box-shadow: 0.5rem 0.5rem #2B2B2B;
-  border: #2B2B2B 2px solid;
+  /* box-shadow: 0.5rem 0.5rem #2B2B2B; */
+  border: #2B2B2B 3px solid;
   margin-top: 2rem;
-  padding: 2rem 2rem 2rem 2rem;
   transition: all 0.45s ease;
+  background-color: white;
 }
 
 .project:hover{
   transform: translate3d(-0.5rem, -0.5rem, 0);
-  box-shadow: 1rem 1rem #2B2B2B;
-  transition: all 0.45s ease;
-}
-
-.project-two{
-  box-shadow: -0.5rem 0.5rem #2B2B2B;
-  border: #2B2B2B 2px solid;
-  margin-top: 2rem;
-  padding: 2rem 2rem 2rem 2rem;
-  transition: all 0.45s ease;
-}
-
-.project-two:hover{
-  transform: translate3d(0.5rem, -0.5rem, 0);
-  box-shadow: -1rem 1rem #2B2B2B;
+  box-shadow: 0.5rem 0.5rem #2B2B2B;
   transition: all 0.45s ease;
 }
 
@@ -147,8 +147,9 @@ footer {
 }
 
 .img-header {
-  width: 90%;
-  padding: 0 3rem;
+  width: 100%;
+  /* height: 100%; */
+  /* padding: 0 3rem; */
 }
 
 /* Flexbox */
@@ -172,6 +173,23 @@ footer {
 .flex-half {
   flex: 1 1 40%;
   margin: 0 2rem 0 0;
+}
+
+.flex-half-home {
+  flex: 1 1 35%;
+  margin: 2rem 4rem 0 0;
+}
+
+.flex-home-offset {
+  margin-top: -5rem;
+}
+
+.flex-offset-top {
+   margin-top:10rem;
+}
+
+.flex-offset-bottom {
+   margin-bottom:8rem;
 }
 
 .flex-third {
@@ -229,7 +247,7 @@ footer {
 }
 
 .content-box-wide {
-  max-width: 50rem;
+  max-width: 60rem;
   margin: auto;
 }
 
@@ -327,12 +345,7 @@ strong {
   padding: 1rem 4rem;
 }
 
-.contact-text{
-  font-size: 1.5rem;
-  line-height: 2rem;
-  margin-top: 5rem;
-  color: #4d4d4d;
-}
+
 
 .stay-tuned {
   font-size: 1.5rem;

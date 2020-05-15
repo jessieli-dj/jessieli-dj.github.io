@@ -31,16 +31,36 @@
 
   .become-column {
     flex-direction: column;
+    margin: 1rem;
   }
 
-  .project {
-    padding-bottom: 3rem;
+  .project, .project-two {
+    /* padding-bottom: 3rem; */
   }
 
   .flex-half-right, .flex-half-left {
     padding: 0 0.75rem;
   }
 
+  footer {
+    padding: 3rem 15%;
+  }
+
+  .content-box, .content-box-wide {
+    padding: 1rem;
+  }
+
+  .spacer-small-horizontal {
+    height: 1rem;
+  }
+
+  .spacer-horizontal {
+    height: 2rem;
+  }
+
+  .spacer-large-horizontal {
+    height: 3rem;
+  }
 
 }
 
@@ -88,10 +108,6 @@
     padding: 0.5rem;
   }
 
-  .content-box {
-    padding: 0.5rem;
-  }
-
   .big-text {
     font-size: 2rem;
   }
@@ -100,7 +116,15 @@
     position: relative;
   }
 
-  .home-section {
-    position: relative;
+  .become-column-home {
+    flex-direction: column;
+  }
+
+  .flex-offset-top, .flex-offset-bottom {
+     margin:1rem;
+  }
+
+  .flex-home-offset {
+    margin: 0;
   }
 }
