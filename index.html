@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/combined.css">
     <link href="https://fonts.googleapis.com/css?family=Mada:400,500,600,700,900" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- // Links -->
 
     <title>Jessie Li</title>
@@ -23,15 +24,26 @@
     </script>
   </head>
 
+
+
   <body>
-    <!-- <header class="content-box-wide">
+
+    <nav class="sticky" id="topBar">
       <a href="index.html" class="no-decoration"><h1 class="nav-link">Jessie Li</h1></a>
-    </header> -->
+      <div class="myNav" id="navbar">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#shipped" class="nav-link">Shipped Products</a>
+        <a href="#projects" class="nav-link">Conceptual Projects</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+    </nav>
 
     <!-- Page Content // -->
     <main>
 
-      <div class="spacer-large-horizontal"></div>
+      <div class="spacer-large-horizontal" id="about"></div>
       <!-- Introduction section // -->
       <section class="content-box-wide">
         <!-- Introduction // -->
@@ -58,84 +70,112 @@
 
       <!-- // Introduction section -->
 
-      <div class="spacer-large-horizontal"></div>
+      <div class="spacer-large-horizontal" id="shipped"></div>
 
       <!-- Recent works // -->
 
-      <section class="content-box-wide">
+      <section class="content-box-wide" >
 
-        <h1 class="home-header">RECENT EXPERIENCE</h1>
+        <h2 class="home-header">🚀 SHIPPED PRODUCTS</h2>
 
         <div class="flexbox become-column-home">
-            <a href="nokia.html" style="text-decoration:none"  class="project flex-half-home flex-offset-bottom">
-              <img src="img/nokia/home.svg" alt="Picture of two screens with interfaces" class="img-header">
-              <div style="padding:0 2rem 3rem 2rem">
+            <a href="nokia.html" class="project flex-half-home flex-offset-bottom">
+              <!-- Nokia -->
+              <img src="img/nokia/home-banner.png" alt="Picture of two screens with interfaces" class="img-header">
+              <div class="project-desc">
                 <h2 class="blurb-header">Nokia Internship</h2>
 
                 <p class="blurb-text">Designing interactions for an expert technical user and all the research, design consideration, and challenge that comes with it.</p>
-                <div class="spacer-small-horizontal"></div>
                 <div class="flexbox">
                   <div class="chip">💻 Web</div>
-                  <div class="chip">🚀 Shipped</div>
                 </div>
-                <!-- <a href="nokia.html" class="cta-button">READ CASE STUDY</a> -->
               </div>
+              <!-- Nokia -->
             </a>
-          <div class="project flex-half-home flex-offset-top">
-            <picture>
-              <a href="tumblershare.html">
-              <source srcset="img/tumblershare/home.png">
+
+          <a href="tumblershare.html" class="project flex-half-home flex-offset-top">
               <img src="img/tumblershare/home.png" alt="Image of two mobile app screens" class="img-header">
-              </a>
-            </picture>
-              <div style="padding:0 2rem 3rem 2rem">
-                <div class="flexbox">
-                  <div class="chip">📱 Mobile</div>
-                  <div class="chip">🚀 Shipped</div>
-                </div>
+              <div class="project-desc">
                 <h2 class="blurb-header">TumblerShare</h2>
                 <p class="blurb-text">It’s never been so easy to say “no” to disposable cups, thanks to our digital tumbler sharing economy.</p>
-                <!-- <div class="spacer-small-horizontal"></div>
-                <a href="nokia.html" class="cta-button">READ CASE STUDY</a> -->
+                <div class="flexbox">
+                  <div class="chip">📱 Mobile</div>
+                  <div class="chip">💻 Web</div>
+                </div>
               </div>
-          </div>
+          </a>
         </div>
 
-        <div class="flexbox become-column-home flex-home-offset">
-          <div class="project flex-half-home flex-offset-bottom">
+
+
+        <div class="spacer-large-horizontal" id="projects"></div>
+
+
+          <h1 class="home-header">💭 CONCEPTUAL PROJECTS</h1>
+
+          <div class="flexbox become-column-home">
+              <a href="nokia.html" class="project flex-half-home flex-offset-bottom">
+                <!-- Nokia -->
+                <img src="img/nokia/home-banner.png" alt="Picture of two screens with interfaces" class="img-header">
+                <div class="project-desc">
+                  <h2 class="blurb-header">AirBnb Journals</h2>
+
+                  <p class="blurb-text">Designing interactions for an expert technical user and all the research, design consideration, and challenge that comes with it.</p>
+                  <div class="flexbox">
+                    <div class="chip">📱 Mobile</div>
+                  </div>
+                </div>
+                <!-- Nokia -->
+              </a>
+
+            <div class="project flex-half-home flex-offset-top">
               <picture>
-                <a href="nokia.html">
-                <source srcset="img/nokia/home.svg">
-                <img src="img/nokia/home.svg" alt="Picture of two screens with interfaces" class="img-header">
+                <a href="tumblershare.html">
+                <source srcset="img/tumblershare/home.png">
+                <img src="img/tumblershare/home.png" alt="Image of two mobile app screens" class="img-header">
                 </a>
               </picture>
-              <div style="padding:0 2rem 3rem 2rem">
-
-                <h2 class="blurb-header">Nokia Internship</h2>
-                <p class="blurb-text">Designing interactions for an expert technical user and all the research, design consideration, and challenge that comes with it.</p>
-                <!-- <div class="spacer-small-horizontal"></div>
-                <a href="nokia.html" class="cta-button">READ CASE STUDY</a> -->
-              </div>
+                <div class="project-desc">
+                  <h2 class="blurb-header">HelpMate</h2>
+                  <p class="blurb-text">It’s never been so easy to say “no” to disposable cups, thanks to our digital tumbler sharing economy.</p>
+                  <div class="flexbox">
+                    <div class="chip">📱 Mobile</div>
+                  </div>
+                </div>
+            </div>
           </div>
-          <div class="project flex-half-home flex-offset-top">
+
+          <div class="flexbox become-column-home flex-home-offset">
+            <div class="project flex-half-home flex-offset-bottom">
               <picture>
-                <a href="nokia.html">
-                <source srcset="img/nokia/home.svg">
-                <img src="img/nokia/home.svg" alt="Picture of two screens with interfaces" class="img-header">
+                <a href="tumblershare.html">
+                <source srcset="img/tumblershare/home.png">
+                <img src="img/tumblershare/home.png" alt="Image of two mobile app screens" class="img-header">
                 </a>
               </picture>
-              <div style="padding:0 2rem 3rem 2rem">
+                <div class="project-desc">
 
-                <h2 class="blurb-header">Vancouver Mural Festival Class Kit</h2>
-                <p class="blurb-text">Increasing engagement with local arts by sponsoring art lesson planning materials for teachers in the community.</p>
-                <!-- <div class="spacer-small-horizontal"></div>
-                <a href="nokia.html" class="cta-button">READ CASE STUDY</a> -->
-              </div>
+                  <h2 class="blurb-header">Strava Team Challenges</h2>
+                  <p class="blurb-text">It’s never been so easy to say “no” to disposable cups, thanks to our digital tumbler sharing economy.</p>
+                  <div class="flexbox">
+                    <div class="chip">📱 Mobile</div>
+                  </div>
+                </div>
+            </div>
+            <a href="vmf.html" class="project flex-half-home flex-offset-top">
+                  <img src="img/vmf/home-banner.png" alt="Picture of two screens with interfaces" class="img-header">
+                <div class="project-desc">
+
+                  <h2 class="blurb-header">Vancouver Mural Festival Class Kit</h2>
+                  <p class="blurb-text">Increasing engagement with local arts by sponsoring art lesson planning materials for teachers in the community.</p>
+                  <div class="flexbox">
+                    <div class="chip">📕 Physical</div>
+                  </div>
+                </div>
+            </a>
           </div>
-        </div>
 
-        <div class="spacer-large-horizontal"></div>
-
+          <div class="spacer-large-horizontal"></div>
 
 
       <!--// Recent works -->
@@ -162,6 +202,7 @@
     <!-- // Page Content -->
 
     <script src="js/lazyload.js"></script>
-    <script src="js/scrollToTop.js"></script>
+    <script src="js/scrollDownBar.js"></script>
+    <script src="js/responsiveNav.js"></script>
   </body>
 </html>

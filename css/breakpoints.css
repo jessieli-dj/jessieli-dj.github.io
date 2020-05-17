@@ -17,16 +17,45 @@
   .vmf-img-box {
     background-color: #f1f1f1;
   }
-
-
 }
 
 @media (max-width: 62.5rem){
 
-  .col1of3 {
-    margin: 0 1rem;
-    max-width: 40rem;
-    flex: 1 1 auto;
+  #topBar {
+    padding: 0 0;
+    display: block;
+  }
+
+  nav h1 {
+    display: none;
+  }
+
+  .myNav a {
+    display: none;
+  }
+
+  .myNav a.icon {
+    /* float: right; */
+    display: block;
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+  }
+
+  .myNav.responsive {
+    position: relative;
+  }
+
+  .myNav.responsive .icon {
+    position: absolute;
+    /* right: 1rem;
+    top: 1rem; */
+  }
+
+  .myNav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
   }
 
   .become-column {

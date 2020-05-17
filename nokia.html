@@ -19,57 +19,64 @@
   </head>
 
   <body>
-    <header>
+    <nav class="sticky" id="topBar">
       <a href="index.html" class="no-decoration"><h1 class="nav-link">Jessie Li</h1></a>
-      <nav>
-        <a href="about.html" class="nav-link">About</a>
-      </nav>
-    </header>
+      <div class="myNav" id="navbar">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#shipped" class="nav-link">Shipped Products</a>
+        <a href="#projects" class="nav-link">Conceptual Projects</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+    </nav>
 
     <main>
-
-      <div class="content-box">
+      <div class="spacer-large-horizontal"></div>
+      <div class="content-box-wide">
 
         <!-- Introduction to Project // -->
-        <div class="additional-bottom-margin content-box-narrow">
-          <div>
+        <div class="additional-bottom-margin">
             <h2 class="project-title">Nokia Internship</h2>
             <div style="margin-top:2rem">
             <div style="margin-right:1.5rem;margin-top:0">
               <!-- <h3 style="margin-bottom:0; margin-top:0" class="header-level4">Overview</h3> -->
-              <p class="paragraph" style="margin-top:0">I worked closely with a senior interaction designer to create an experience around leveraging automation to help network engineers save time and reduce risk of human error.</p>
-              <p class="paragraph">The experience was brought to life through the close collaboration of a multidisciplinary team composed of designers, developers, QA, and product manager. </p>
+              <!-- <p class="paragraph" style="margin-top:0">I worked closely with a senior interaction designer to create an experience around leveraging automation to help network engineers save time and reduce risk of human error.</p> -->
+              <!-- <p class="paragraph">The experience was brought to life through the close collaboration of a multidisciplinary team composed of designers, developers, QA, and product manager. </p> -->
             </div>
-            <h3 class="project-subheader" style="margin-top:2rem">Role</h3>
-            <ul style="margin-top:0">
-              <li class="paragraph">Applied design thinking to create designs that provide clear value for the end-user and business</li>
-              <li class="paragraph">Conducted design reviews regularly as part of an iterative design process which led to a stronger final proposal</li>
-              <li class="paragraph">Communicated with an interdisciplinary team during the implementation phase to clarify and facilitate questions</li>
-              <li class="paragraph">Planned and executed a customer research project in  collaboration with a UX researcher</li>
-            </ul>
-            <div class="flexbox become-column top-margin">
-              <div class="flex-half">
-                <h3 style="margin-bottom:0;margin-top:0" class="project-subheader">Tools</h3>
-                <ul class="inline-list paragraph">
-                  <li class="paragraph">Sketch</li>
-                  <li class="paragraph">InVision</li>
-                  <li class="paragraph">Jira</li>
-                  <li class="paragraph">Keynote</li>
-                  <li class="paragraph">Powerpoint</li>
-                </ul>
-              </div>
-
-              <div class="flex-half">
-                <h3 style="margin-bottom:0;margin-top:0" class="project-subheader">When</h3>
-                <p class="paragraph" style="margin-top:0">May - December 2019</p>
-              </div>
-            </div>
-          </div>
-
-
           </div>
         </div>
+        <h3 class="project-subheader" style="margin-top:2rem">Role</h3>
+        <ul style="margin-top:0">
+          <li class="paragraph">Applied design thinking to create designs that provide clear value for the end-user and business</li>
+          <li class="paragraph">Conducted design reviews regularly as part of an iterative design process which led to a stronger final proposal</li>
+          <li class="paragraph">Communicated with an interdisciplinary team during the implementation phase to clarify and facilitate questions</li>
+          <li class="paragraph">Planned and executed a customer research project in  collaboration with a UX researcher</li>
+        </ul>
+        <div class="flexbox become-column top-margin">
+          <div class="flex-half">
+            <h3 style="margin-bottom:0;margin-top:0" class="project-subheader">Tools</h3>
+            <ul class="inline-list paragraph">
+              <li class="paragraph">Sketch</li>
+              <li class="paragraph">InVision</li>
+              <li class="paragraph">Jira</li>
+              <li class="paragraph">Keynote</li>
+              <li class="paragraph">Powerpoint</li>
+            </ul>
+          </div>
+
+          <div class="flex-half">
+            <h3 style="margin-bottom:0;margin-top:0" class="project-subheader">When</h3>
+            <p class="paragraph" style="margin-top:0">May - December 2019</p>
+          </div>
+        </div>
+
+        <img src="img/nokia/case-study-banner.png" alt="Mockup of an interface on a Mac desktop" class="img-header">
+
         <!-- // Introduction to project  -->
+
+        <!-- Project banner // -->
+        <!-- // Project banner -->
 
         <!-- The Project // -->
         <!-- <section class="additional-bottom-margin top-margin-10rem">
@@ -116,17 +123,10 @@
           </div>
         </section> -->
 
-        <div class="top-margin-10rem">
+        <!-- <div class="top-margin-10rem">
           <h3 class="header-level2 no-margin-top">Reflection</h3>
         </div>
-        <p class="paragraph">My internship exceeded my expectations. I can’t wait to take what I’ve learned into the next stage of my career. Thanks to the Nokia ION UX team for a great 8 months!</p>
-
-        <picture>
-          <source media="(max-width: 40.63rem)" srcset="img/vmf/banner-mobile.jpg 1x">
-          <source srcset="img/vmf/banner.png">
-          <img src="img/vmf/banner.png" alt="Vancouver Mural Festival Classroom Kit instruction booklet, lesson cards and mural passport"  style="max-width:80%;display:block;margin:auto;">
-        </picture>
-
+        <p class="paragraph">My internship exceeded my expectations. I can’t wait to take what I’ve learned into the next stage of my career. Thanks to the Nokia ION UX team for a great 8 months!</p> -->
         <h4 class="stay-tuned top-margin">Stay tuned - case study coming soon!</h4>
 
       </div>
@@ -155,6 +155,8 @@
 
   <script src="js/lazyload.js"></script>
   <script src="js/carousel.js"></script>
+  <script src="js/scrollDownBar.js"></script>
+  <script src="js/responsiveNav.js"></script>
   </body>
 
 </html>
