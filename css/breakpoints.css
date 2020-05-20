@@ -23,19 +23,25 @@
 
   #topBar {
     padding: 0 0;
-    display: block;
+    flex-direction: column;
   }
-
+/*
   nav h1 {
     display: none;
-  }
+  } */
 
-  .myNav a {
+  .nav-link {
     display: none;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
   }
 
-  .myNav a.icon {
-    /* float: right; */
+  nav {
+    align-items: baseline;
+  }
+
+  nav a.icon {
+    float: right;
     display: block;
     position: absolute;
     right: 1rem;
@@ -60,11 +66,6 @@
 
   .become-column {
     flex-direction: column;
-    margin: 1rem;
-  }
-
-  .project, .project-two {
-    /* padding-bottom: 3rem; */
   }
 
   .flex-half-right, .flex-half-left {
@@ -88,7 +89,7 @@
   }
 
   .spacer-large-horizontal {
-    height: 3rem;
+    height: 2rem;
   }
 
 }
@@ -116,7 +117,6 @@
   }
 
   .paragraph {
-    margin: 1rem;
     padding: 0;
   }
 
@@ -143,10 +143,6 @@
 
   .sticky {
     position: relative;
-  }
-
-  .become-column-home {
-    flex-direction: column;
   }
 
   .flex-offset-top, .flex-offset-bottom {
