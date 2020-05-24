@@ -145,3 +145,42 @@ h1 {
 .inline-list li:last-of-type::after {
   content: "";
 }
+
+.list {
+  font-size: 1.25rem;
+  line-height: 1.65rem;
+  font-family: 'Mada', sans-serif;
+  color: #6A75D4;
+  margin-top: 0;
+  font-weight: 400;
+  text-decoration: none;
+  padding: 1rem 4rem;
+}
+
+.list li {
+  padding: 0.5rem;
+}
+
+.footer-list {
+  margin-top: 0;
+  padding: 0;
+  margin-left: 2rem;
+  list-style-type: none;
+  flex: 1 1 auto;
+}
+
+.footer-list-item {
+  color: white;
+  margin-bottom: 0.75rem;
+  font-size: 1rem;
+  /* font-family: 'Roboto', 'Rubik', sans-serif; */
+  font-weight: 100;
+}
+
+.splash-header {
+  font-size: 3.5rem;
+  line-height: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: #4d4d4d;
+}

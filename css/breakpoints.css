@@ -21,14 +21,20 @@
 
 @media (max-width: 62.5rem){
 
+  .splash {
+    position: static;
+  }
+
+  .splash-header {
+    position: static;
+    color: #4d4d4d;
+    font-size: 1.5rem;
+  }
+
   #topBar {
     padding: 0 0;
     flex-direction: column;
   }
-/*
-  nav h1 {
-    display: none;
-  } */
 
   .nav-link {
     display: none;

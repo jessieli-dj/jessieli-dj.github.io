@@ -69,3 +69,16 @@
 .image-link:hover {
   border: #2B2B2B 3px solid;
 }
+
+.footer-link {
+  text-decoration: none;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+.footer-link:hover{
+  color: rgba(255,255,255,0.5);
+  -webkit-transition-duration: .2s;
+  -moz-transition-duration: .2s;
+  -o-transition-duration: .2s;
+}
