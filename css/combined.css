@@ -195,9 +195,9 @@ footer {
 
 .flex-third {
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 30%;
-          flex: 1 1 30%;
-  margin: 0.75rem;
+      -ms-flex: 1 1 20%;
+          flex: 1 1 20%;
+  margin-right: 3rem;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -249,7 +249,7 @@ footer {
 }
 
 .content-box {
-  max-width: 60rem;
+  max-width: 50rem;
   margin: auto;
 }
 
