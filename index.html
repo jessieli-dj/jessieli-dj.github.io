@@ -11,153 +11,162 @@
 
     <!-- Links // -->
     <link rel="stylesheet" href="css/combined.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans%7CRubik:400,700,500">
+    <link href="https://fonts.googleapis.com/css?family=Mada:400,500,600,700,900" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- // Links -->
 
-    <title>Jessie Li</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-134999887-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-134999887-1');
+    </script>
+
+    <title>Jessie Li's Portfolio</title>
   </head>
 
   <body>
-    <header class="sticky">
-      <a href="index.html" class="no-decoration"><h1 class="header-level1">Jessie Li</h1></a>
-      <nav>
-        <a href="contact.html" class="nav-link">Contact</a>
-      </nav>
-    </header>
+
+    <nav class="sticky" id="topBar">
+      <a href="index.html" class="home-link">Jessie Li</a>
+      <div class="myNav" id="navbar">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#shipped" class="nav-link">Shipped Products</a>
+        <a href="#projects" class="nav-link">Conceptual Projects</a>
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </nav>
 
     <!-- Page Content // -->
     <main>
 
-      <!-- Introduction section // -->
-      <section class="intro">
-        <!-- Introduction // -->
-        <div class="flexbox">
-          <div class="flex-third">
-            <img src="img/me.png" alt="cartoon icon of Jessie Li" style="max-width:10rem;">
-          </div>
-          <div class="flex-twothird">
-            <h2 class="big-text">Hey! This is <span class="bold">Jessie Li</span>.</h2>
-          </div>
+      <div class="spacer-large-horizontal" id="about"></div>
+      <section class="content-box-wide flexbox become-column-home">
+        <div class="flex-half-home flex-offset-bottom">
+          <img src="img/me.png" alt="cartoon icon of Jessie Li" style="max-width:20rem;">
         </div>
-        <p class="about-me med-text">I'm a designer specialising in <span class="bold">UX/UI design</span>, <span class="bold">content strategy</span>, and <span class="bold">research</span>. Sharing and hearing people’s stories is the foundation of my design process, in order to create relatable and down-to-earth human experiences. </p>
-        <p class="about-me med-text bold">Check out my works below!</p>
+
+        <div class="flex-half-home flex-offset-top">
+          <h1 class="big-text">Hey. I'm <span class="bold">Jessie Li</span>!</h1>
+          <p class="paragraph">I’m a <b>UX/interaction</b> designer with a focus on research-driven design and storytelling to create down-to-earth products.<p>
+          <h2 class="contact-text">Interested in chatting? Connect with me on <a class="intext-link" href="https://www.linkedin.com/in/jessie-li-82170291/" target="_blank">LinkedIn</a> or shoot me an email at <a class="intext-link" href="mailto:lidel@sfu.ca" target="_blank">lidel@sfu.ca</a>.</h2>
+
+        </div>
       </section>
 
-      <!-- // Introduction section -->
+      <div class="spacer-large-horizontal" id="shipped"></div>
 
-      <!-- Recent works // -->
+      <section class="content-box-wide">
 
-      <!-- <div class="accent-background"> -->
-        <div class="content-box-home">
+        <h2 class="home-header">🚀 SHIPPED PRODUCTS</h2>
 
-          <!-- First row  -->
-          <div class="flexbox become-column">
+        <div class="flexbox become-column-home">
 
-            <!-- VMF -->
-            <div class="flex-half-home">
-              <div class="project" id="vmf-card">
-                <a href="vmf.html" style="text-decoration:none">
-                  <!-- <img src="img/vmf/logo.png" alt="VMF logo" style="width:50%; margin:auto"> -->
-                  <h3 class="header-level3 no-margin-bottom">Vancouver Mural Festival Classroom Kit</h3>
-                  <p class="date">May - August 2018</p>
-                  <p class="no-margin-bottom project-text">UX Design, Interaction Design, Information Design, Visual Design</p>
-                  <p class="med-text no-margin-bottom no-margin-top">-</p>
-                  <p class="project-text no-margin-bottom">Increasing mural literacy in Vancouver through outreach into education, by providing teachers with resource kits for lesson planning and mural passports for children to engage with murals.</p>
-                  <div class="overlay">
-                  </div>
-                  <div class="project-img">
-                    <noscript>
-                      <img src="img/vmf/banner-vmf.png" alt="Vancouver Mural Festival Classroom Kit instruction booklet, lesson cards and mural passport" style="width:100%" class="banner">
-                    </noscript>
-                    <img src="img/vmf/banner-vmf-lazyload.png" data-src="img/vmf/banner-vmf.png" alt="Vancouver Mural Festival Classroom Kit instruction booklet, lesson cards and mural passport" style="width:100%;" class="project-img lazyload blur">
-                  </div>
-                </a>
+          <a href="nokia.html" class="project flex-half-home flex-offset-bottom">
+            <img src="img/nokia/home-banner.png" alt="Picture of a Mac with interface" class="img-header">
+            <div class="project-desc">
+              <h3 class="blurb-header">Nokia Internship 2019, designing features for technical users</h2>
+              <div class="flexbox">
+                <div class="chip">💻 Web</div>
               </div>
             </div>
+          </a>
 
-            <!-- DND -->
-            <div class="flex-half-home">
-              <div class="project" id="dnd-card">
-                <a href="dnd.html" style="text-decoration:none">
-                  <!-- <img src="img/dnd/dnd-logo.png" alt="D&D Beyond logo" style="width:50%; margin:auto"> -->
-                  <h3 class="header-level3 no-margin-bottom">D&D Beyond Tutorials</h3>
-                  <p class="date">October 2018</p>
-                  <p class=" no-margin-bottom project-text">UX Design, Interface Design, Visual Design</p>
-                  <p class="med-text no-margin-bottom no-margin-top">-</p>
-                  <p class="project-text">Removing barriers to entry for newcomers by presenting information from manuals and guides in a more accessible and engaging way.</p>
-                  <div class="overlay">
-                  </div>
-                  <div class="project-img">
-                    <noscript>
-                      <img src="img/dnd/hover-screens.png" alt="4 screenshots of project interface" style="width:100%">
-                    </noscript>
-                    <img src="img/dnd/hover-screens-lazyload.png" data-src="img/dnd/hover-screens.png" alt="4 screenshots of project interface" class="project-img lazyload blur">
-                  </div>
-                </a>
+          <a href="tumblershare.html" class="project flex-half-home flex-offset-top">
+            <img src="img/tumblershare/home.png" alt="Image of two mobile app screens" class="img-header">
+            <div class="project-desc">
+              <h3 class="blurb-header">TumblerShare, a tumbler sharing economy app</h2>
+              <div class="flexbox">
+                <div class="chip">📱 Mobile</div>
+                <div class="chip">💻 Web</div>
               </div>
-              <!-- // VMF -->
             </div>
-          </div>
-          <!-- // VMF -->
-
-          <div class="flexbox become-column">
-            <!-- Second row -->
-            <div class="flex-half-home">
-              <!-- LinkedIn // -->
-                <div class="project" id="linkedin-card">
-                  <a href="blueprint.html" style="text-decoration:none">
-                    <!-- <img src="img/linkedin/linkedin-logo.png" alt="LinkedIn logo" style="width:50%; margin:auto"> -->
-                    <h3 class="header-level3 no-margin-bottom">LinkedIn Blueprint</h3>
-                    <p class="date">November 2018</p>
-                    <p class="no-margin-bottom project-text">UX Design, Interaction Design, UI Animations, Video Production</p>
-                    <p class="med-text no-margin-bottom no-margin-top">-</p>
-                    <p class="project-text">Diversifying LinkedIn's userbase by providing individuals in declining industries with help switching careers by connecting with industry mentors.</p>
-                    <div class="overlay"></div>
-                    <div class="project-img">
-                      <noscript>
-                        <img src="img/linkedin/card-screens.png" alt="4 screenshots of project interface" style="width:100%" class="img-header">
-                      </noscript>
-                      <img src="img/linkedin/card-screens-lazyload.png" data-src="img/linkedin/card-screens.png" alt="4 screenshots of LinkedIn project interface" style="width:100%" class="project-img lazyload blur">
-                    </div>
-                  </a>
-                </div>
-              <!-- // LinkedIn -->
-            </div>
-
-            <!-- Intersecting Paths // -->
-            <div class="flex-half-home">
-                <div class="project">
-                  <a href="intersecting-paths.html" style="text-decoration:none">
-                    <!-- <img src="img/intersecting-paths/logo.png" alt="Intersecting Paths title" style="width:75%; margin:auto" class="home-logo"> -->
-                    <h3 class="header-level3 no-margin-bottom">Intersecting Paths</h3>
-                    <p class="date">April 2018</p>
-                    <p class="no-margin-bottom project-text">Visual Design, Team Management</p>
-                    <p class="med-text no-margin-bottom no-margin-top">-</p>
-                    <p class="project-text additional-bottom-margin">Slide deck presenting an architectural form. Presented as part of a 2-day design competition, where my team placed 2nd out of 14 teams.</p>
-                    <div class="overlay">
-                    </div>
-                    <div>
-                      <noscript>
-                        <img src="img/intersecting-paths/model-banner.png" alt="Architectural model" style="width:100%" class="banner">
-                      </noscript>
-                      <img src="img/intersecting-paths/model-banner-lazyload.png" data-src="img/intersecting-paths/model-banner.png" alt="Architectural model" style="width:100%" class="banner lazyload blur">
-                    </div>
-                  </a>
-                </div>
-              <!-- // Intersecting Paths -->
-            </div>
-          </div>
+          </a>
         </div>
 
-      <!--// Recent works -->
+        <div class="spacer-large-horizontal" id="projects"></div>
+
+        <h2 class="home-header">💭 CONCEPTUAL PROJECTS</h1>
+
+        <div class="flexbox become-column-home">
+          <a href="helpmate.html" class="project flex-half-home flex-offset-bottom">
+            <img src="img/helpmate/home-banner.png" alt="Image of three mobile app screens" class="img-header">
+            <div class="project-desc">
+              <h3 class="blurb-header">HelpMate, a community-based task sharing economy app</h2>
+              <div class="flexbox">
+                <div class="chip">📱 Mobile</div>
+              </div>
+            </div>
+
+          </a>
+          <a href="vmf-class-kit.html" class="project flex-half-home flex-offset-top">
+            <img src="img/vmf/home-banner.png" alt="Picture of instructions booklet, mural passport and lesson cards" class="img-header">
+            <div class="project-desc">
+              <h3 class="blurb-header">Vancouver Mural Festival Class Kit, a mural-inspired art lesson planning kit</h2>
+              <div class="flexbox">
+                <div class="chip">📕 Physical</div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="flexbox become-column-home flex-home-offset">
+          <a href="strava-team-challenges.html" class="project flex-half-home flex-offset-bottom">
+            <img src="img/strava/home-banner.png" alt="Image of two mobile app screens" class="img-header">
+            <div class="project-desc">
+
+              <h3 class="blurb-header">Strava Team Challenges, a social feature concept for Strava Android</h2>
+              <div class="flexbox">
+                <div class="chip">📱 Mobile</div>
+              </div>
+            </div>
+          </a>
+
+          <a href="airbnb-journals.html" class="project flex-half-home flex-offset-top">
+            <img src="img/airbnb/home-banner.png" alt="Picture of three mobile screen interfaces" class="img-header">
+            <div class="project-desc">
+              <h3 class="blurb-header">Airbnb Journals, an app to share your travel stories and Experiences</h2>
+              <div class="flexbox">
+                <div class="chip">📱 Mobile</div>
+              </div>
+            </div>
+          </a>
+
+        </div>
+
+        <div class="spacer-large-horizontal"></div>
+      </section>
     </main>
+    <footer class="become-column">
+      <div class="footer-section become-column">
+        <h2 class="footer-header">CONTACT ME</h1>
+        <ul class="footer-list">
+          <li class="footer-list-item"><a href="mailto:lidel@sfu.ca" class="footer-link" target="_blank">lidel@sfu.ca</a></li>
+          <li class="footer-list-item"><a href="https://www.linkedin.com/in/jessie-li-82170291/" class="footer-link" target=”_blank”>LinkedIn</a></li>
+          <li class="footer-list-item">778-882-0202</li>
+        </ul>
+      </div>
+      <div class="footer-section become-column">
+        <h2 class="footer-header">MY EXPERIENCES</h1>
+        <ul class="footer-list">
+          <li class="footer-list-item"><a href="nokia.html" class="footer-link">My Nokia Internship</a></li>
+          <li class="footer-list-item"><a href="tumblershare.html" class="footer-link">TumblerShare</a></li>
+          <li class="footer-list-item"><a href="helpmate.html" class="footer-link">HelpMate</a></li>
+          <li class="footer-list-item"><a href="strava-team-challenges.html" class="footer-link">Strava Team Challenges</a></li>
+          <li class="footer-list-item"><a href="vmf-class-kit.html" class="footer-link">VMF Classroom Kit</a></li>
+          <li class="footer-list-item"><a href="airbnb-journals.html" class="footer-link">Airbnb Journals</a></li>
+        </ul>
+      </div>
+
+    </footer>
     <!-- // Page Content -->
 
-    <footer>
-      <p class="paragraph small-text gray-text">Coded by Jessie Li</p>
-      <p class="paragraph project-text gray-text">Last Updated: 2/8/2019</p>
-    </footer>
-
-    <script src="js/lazyload.js"></script>
+    <script src="js/scrollDownBar.js"></script>
+    <script src="js/responsiveNav.js"></script>
   </body>
 </html>

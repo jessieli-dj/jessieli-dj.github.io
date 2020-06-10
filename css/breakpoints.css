@@ -17,30 +17,86 @@
   .vmf-img-box {
     background-color: #f1f1f1;
   }
-
-
 }
 
 @media (max-width: 62.5rem){
 
-  .col1of3 {
-    margin: 0 1rem;
-    max-width: 40rem;
-    flex: 1 1 auto;
+  .splash {
+    position: static;
+  }
+
+  .splash-header {
+    position: static;
+    color: #4d4d4d;
+    font-size: 1.5rem;
+  }
+
+  #topBar {
+    padding: 0 0;
+    flex-direction: column;
+  }
+
+  .nav-link {
+    display: none;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+  }
+
+  nav {
+    align-items: baseline;
+  }
+
+  nav a.icon {
+    float: right;
+    display: block;
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+  }
+
+  .myNav.responsive {
+    position: relative;
+  }
+
+  .myNav.responsive .icon {
+    position: absolute;
+    /* right: 1rem;
+    top: 1rem; */
+  }
+
+  .myNav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
   }
 
   .become-column {
     flex-direction: column;
   }
 
-  .project {
-    margin: 0;
-  }
-
   .flex-half-right, .flex-half-left {
     padding: 0 0.75rem;
   }
 
+  footer {
+    padding: 3rem 15%;
+  }
+
+  .content-box, .content-box-wide {
+    padding: 1rem;
+  }
+
+  .spacer-small-horizontal {
+    height: 1rem;
+  }
+
+  .spacer-horizontal {
+    height: 2rem;
+  }
+
+  .spacer-large-horizontal {
+    height: 2rem;
+  }
 
 }
 
@@ -67,7 +123,6 @@
   }
 
   .paragraph {
-    margin: 1rem;
     padding: 0;
   }
 
@@ -88,10 +143,6 @@
     padding: 0.5rem;
   }
 
-  .content-box {
-    padding: 0.5rem;
-  }
-
   .big-text {
     font-size: 2rem;
   }
@@ -100,7 +151,11 @@
     position: relative;
   }
 
-  .home-section {
-    position: relative;
+  .flex-offset-top, .flex-offset-bottom {
+     margin:1rem;
+  }
+
+  .flex-home-offset {
+    margin: 0;
   }
 }
