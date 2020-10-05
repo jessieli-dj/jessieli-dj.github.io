@@ -3,13 +3,20 @@ h1 {
 }
 
 #intro-text {
+  line-height:2.2rem;
+  font-size:2.5rem;
+  color: rgb(60,60,60);
+}
+
+#intro-paragraph {
   line-height:2rem;
-  font-size:1.75rem;
-  color: rgb(150,150,150);
+  font-size:1.5rem;
+  color: rgb(60,60,60);
+  font-weight: 400;
 }
 
 .home-header {
-  color: rgba(0,0,0);
+  color: rgb(60,60,60);
   font-size: 1.85rem;
   flex: 1 1 auto;
   margin-top: 0.15rem;
@@ -22,7 +29,7 @@ h1 {
 .blurb-header {
   font-size: 1.4rem;
   font-weight: 900;
-  color: #000000;
+  color: rgb(60,60,60);
 }
 
 .blurb-text {
@@ -39,6 +46,7 @@ h1 {
   line-height: 1.5rem;
   margin-top: 1rem;
   color: #4d4d4d;
+  font-weight: bold;
 }
 
 .paragraph-above-header {
@@ -51,7 +59,7 @@ h1 {
 
 
 .paragraph-header{
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   line-height: 2rem;
   font-weight: 700;
   margin-bottom: 0.75rem;
@@ -72,7 +80,7 @@ h1 {
   font-size: 1.15rem;
   line-height: 1.5rem;
   font-family: 'Mada', sans-serif;
-  color: rgba(0,0,0,0.5);
+  color: rgba(0,0,0,0.6);
   margin-top: 0;
   font-weight: 400;
 }
@@ -160,7 +168,7 @@ h1 {
   font-size: 1.25rem;
   line-height: 1.65rem;
   font-family: 'Mada', sans-serif;
-  color: #6A75D4;
+  color: #4d4d4d;
   margin-top: 0;
   font-weight: 400;
   text-decoration: none;

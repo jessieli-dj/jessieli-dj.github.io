@@ -78,6 +78,10 @@
     padding: 0 0.75rem;
   }
 
+  .flex-half-home {
+    margin: 0.75rem 0;
+  }
+
   footer {
     padding: 3rem 15%;
   }

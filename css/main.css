@@ -91,8 +91,8 @@ footer {
 }
 
 .project {
-  /* box-shadow: 0.5rem 0.5rem #2B2B2B; */
-  border: #2B2B2B 3px solid;
+  box-shadow: 0rem 0 1rem #D9D9D9;
+  /* border: #2B2B2B 3px solid; */
   margin-top: 2rem;
   transition: all 0.45s ease;
   background-color: white;
@@ -101,7 +101,7 @@ footer {
 
 .project:hover{
   transform: translate3d(-0.5rem, -0.5rem, 0);
-  box-shadow: 0.5rem 0.5rem #2B2B2B;
+  /* box-shadow: 0.5rem 0.5rem #2B2B2B; */
   transition: all 0.45s ease;
 }
 
