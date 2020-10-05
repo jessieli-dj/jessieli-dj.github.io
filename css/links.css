@@ -21,6 +21,7 @@
 
 .nav-link:hover, .nav-link:focus, .home-link:hover, .home-link:focus, .case-nav-link:hover, .case-nav-link:focus, .nav-button:hover, .nav-button:focus {
   color: #BEA6D3;
+  border-bottom: 3px solid #BEA6D3;
 }
 
 /* In-text Links */
