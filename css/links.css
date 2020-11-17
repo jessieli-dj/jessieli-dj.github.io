@@ -4,6 +4,7 @@
   color: #6A75D4;
   text-decoration: none;
   padding: 1.5rem 1rem;
+  font-family: 'Mada', sans-serif;
   font-size: 1rem;
 }
 
@@ -12,6 +13,7 @@
   text-decoration: none;
   padding: 1.5rem 1rem;
   font-size: 1rem;
+  font-family: 'Mada', sans-serif;
   font-weight: 900;
 }
 
@@ -28,6 +30,7 @@
 
 .intext-link {
   color: #6A75D4;
+  font-family: 'Mada', sans-serif;
   text-decoration: none;
 }
 
@@ -74,7 +77,7 @@
 .footer-link {
   text-decoration: none;
   color: white;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Mada', sans-serif;
 }
 
 .footer-link:hover{
