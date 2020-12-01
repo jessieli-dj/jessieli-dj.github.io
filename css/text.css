@@ -14,7 +14,7 @@ h1 {
   font-size:1.2rem;
   color: rgb(60,60,60);
   font-weight: 400;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Work Sans', sans-serif;
 }
 
 .home-header {
@@ -88,8 +88,8 @@ h1 {
 
 .paragraph {
   font-size: 1rem;
-  line-height: 1.7rem;
-  font-family: 'Poppins', sans-serif;
+  line-height: 1.5rem;
+  font-family: 'Work Sans', sans-serif;
   color: rgba(0,0,0,0.6);
   margin-top: 0;
   font-weight: 400;
@@ -98,7 +98,7 @@ h1 {
 .half-paragraph {
   font-size: 1rem;
   line-height: 1.35rem;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Work Sans', sans-serif;
   color: rgba(0,0,0,0.5);
   margin-top: 0;
   font-weight: 400;
@@ -129,11 +129,13 @@ h1 {
 }
 
 .project-intro {
-  font-size: 1.25rem;
+  font-size: 1.15rem;
   line-height: 1.5rem;
   color: rgba(0,0,0,0.5);
   margin-top: 0;
   font-weight: 500;
+  font-family: 'Work Sans', sans-serif;
+
 }
 
 .project-title {
@@ -178,7 +180,7 @@ h1 {
 .list {
   font-size: 1rem;
   line-height: 1.65rem;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Work Sans', sans-serif;
   color: rgba(0,0,0,0.6);
   margin-top: 0;
   font-weight: 400;
@@ -201,8 +203,7 @@ h1 {
 .footer-list-item {
   color: white;
   margin-bottom: 0.75rem;
-  font-size: 1rem;
-  /* font-family: 'Roboto', 'Rubik', sans-serif; */
+  font-size: 0.85rem;
   font-weight: 100;
 }
 

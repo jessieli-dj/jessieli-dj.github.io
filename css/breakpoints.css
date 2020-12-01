@@ -2,34 +2,6 @@
   .vmf-img-text {
     max-width: 20rem;
   }
-}
-
-@media (max-width: 60rem){
-  .vmf-img-text{
-    position: relative;
-    margin: auto;
-    padding: 0;
-    max-width: 50rem;
-    left: 0;
-    top: 0;
-  }
-
-  .vmf-img-box {
-    background-color: #f1f1f1;
-  }
-}
-
-@media (max-width: 62.5rem){
-
-  .splash {
-    position: static;
-  }
-
-  .splash-header {
-    position: static;
-    color: #4d4d4d;
-    font-size: 1.5rem;
-  }
 
   #topBar {
     padding: 0 0;
@@ -68,6 +40,36 @@
     float: none;
     display: block;
     text-align: left;
+  }
+}
+
+@media (max-width: 60rem){
+  .vmf-img-text{
+    position: relative;
+    margin: auto;
+    padding: 0;
+    max-width: 50rem;
+    left: 0;
+    top: 0;
+  }
+
+  .vmf-img-box {
+    background-color: #f1f1f1;
+  }
+
+
+}
+
+@media (max-width: 62.5rem){
+
+  .splash {
+    position: static;
+  }
+
+  .splash-header {
+    position: static;
+    color: #4d4d4d;
+    font-size: 1.5rem;
   }
 
   .become-column {
