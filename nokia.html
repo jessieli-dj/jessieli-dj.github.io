@@ -10,12 +10,14 @@
     <!-- // Meta tags -->
 
     <!-- Links // -->
-    <link rel="stylesheet" href="css/combined.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/links.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/text.css">
+    <link rel="stylesheet" href="css/spacers.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@500;900&display=swap" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Mada:wght@400;500;600;700;900&family=Work+Sans&display=swap" rel="stylesheet">
-
-
     <!-- // Links -->
 
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-134999887-1"></script>
@@ -31,13 +33,17 @@
 
   <body>
     <nav class="sticky" id="topBar">
-      <a href="/" class="home-link">← Back to Home</a>
+      <a href="/" class="home-link">Jessie Li</a>
+      <div class="myNav" id="navbar">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#projects" class="nav-link">Projects</a>
+      </div>
     </nav>
 
     <main>
       <div class="spacer-large-horizontal"></div>
-      <div class="content-box-wide">
-        <h1 class="project-title">Nokia Internship 2019, designing features for technical users</h1>
+      <div>
+        <h1 class="project-title">Nokia Network Services Platform</h1>
         <p class="project-intro">I worked closely with a senior interaction designer to create an experience around leveraging automation to help network engineers save time and reduce risk of human error.</p>
 
         <div class="spacer-mini-horizontal"></div>
@@ -45,17 +51,17 @@
         <ul class="small-text" style="margin-top:0">
           <li class="paragraph">Applied design thinking to provide clear value for the end-user and business</li>
           <li class="paragraph">Produced high-fidelity mockups and design documentation consistent with the existing design system</li>
-          <li class="paragraph">Collaborated with an interdisciplinary team throughout the implementation phase to clarify and refine deliverables</li>
+          <li class="paragraph">Collaborated with the development team throughout the implementation phase to clarify and refine deliverables</li>
           <li class="paragraph">Conducted design reviews regularly as part of an iterative process leading to a stronger proposal</li>
         </ul>
 
         <div class="spacer-small-horizontal"></div>
 
-        <img src="img/nokia/case-study-banner.png" alt="Mockup of an interface on a Mac desktop" class="img-header">
+        <img src="img/nokia/case-study-banner.png" alt="Mockup of an interface on a Mac desktop" class="img-artefact">
 
         <div class="spacer-large-horizontal"></div>
 
-        <section class="content-box">
+        <section>
           <h2 class="paragraph-header">Context</h2>
           <p class="paragraph">
             The IP/MPLS Simulation web app is a sandbox that network engineers can use to import a version of their IP network, play around with network configurations and simulate what-if scenarios.
@@ -65,7 +71,7 @@
 
         <div class="spacer-large-horizontal"></div>
 
-        <section class="content-box">
+        <section>
           <h3 class="paragraph-above-header">Define</h3>
           <h2 class="paragraph-header">Problem Statement</h2>
           <p class="paragraph">Network engineers must create contingencies in the event of network failure to avoid causing cause disruptions to internet service for customers. Since networks can include up to thousands of objects, <strong>simulating and analyzing failure scenarios one at a time is extremely time consuming and creates a large margin for human error.</strong></p>
@@ -73,7 +79,7 @@
 
         <div class="spacer-large-horizontal"></div>
 
-        <section class="content-box">
+        <section>
           <h3 class="paragraph-above-header">Define</h3>
           <h2 class="paragraph-header">Value Proposition</h2>
           <ol class="list">
@@ -84,16 +90,14 @@
 
         <div class="spacer-large-horizontal"></div>
 
-        <section class="content-box-wide">
-          <div class="content-box">
+        <section>
             <h3 class="paragraph-above-header">Design</h3>
             <h2 class="paragraph-header">Preliminary Explorations</h2>
             <p class="paragraph">The first thing I did was facilitate a meeting with the developers, QA, and product manager, to start everyone on the same page about the general functionality. I recorded requirements from the meeting to keep me on the project road map as I began my design explorations.</p>
             <p class="paragraph">Breaking down the flow into three chunks allowed me to understand the user’s perspective and thoughts at different stages of the process.</p>
-          </div>
           <div class="spacer-horizontal"></div>
-          <div class="flexbox">
-            <div class="flex-third card">
+          <div>
+            <div class="card">
               <h5 class="paragraph-above-header">Step 1</h5>
               <h4 class="half-paragraph-header">Selecting Objects</h4>
               <p class="half-paragraph">What information does the user need to decide if they want to include an object or not?</p>
@@ -113,37 +117,30 @@
               <p class="half-paragraph">How can we break down the information to avoid overwhelming the user?</p>
             </div>
           </div>
-          <div class="spacer-horizontal"></div>
-          <div class="content-box">
-            <p class="paragraph">I presented a preliminary navigation chart to the product team, which kept the team informed about my progress and generated discussion. This resulted in feedback that helped direct my next round of iterating.</p>
-          </div>
+          <div class="spacer-small-horizontal"></div>
+          <p class="paragraph">I presented a preliminary navigation chart to the product team, which kept the team informed about my progress and generated discussion. This resulted in feedback that helped direct my next round of iterating.</p>
         </section>
 
         <div class="spacer-large-horizontal"></div>
 
-        <section class="content-box-wide">
-          <div class="content-box">
+        <section>
             <h3 class="paragraph-above-header">Refine</h3>
-            <h2 class="paragraph-header">Iterating</h2>
-            <div class="spacer-horizontal"></div>
             <h3 class="paragraph-header">How might we make the waiting stage simple and painless?</h3>
             <p class="paragraph">Since the scenarios could take hours to generate, I considered the experience from the user’s perspective to identify pain points that needed to be addressed, and in what order of priority. The most critical pain point was any outcome where the user would have to run the scenarios all over again, possibly due to lost or corrupt data.</p>
             <div class="spacer-mini-horizontal"></div>
             <h3 class="half-paragraph-header">Solution</h3>
             <p class="paragraph">A GUI-blocking dialog prevents user actions that might cause inaccuracy or loss of data, and provides assurance to users about the progress of the scenarios.</p>
-            <div class="spacer-horizontal"></div>
-          </div>
-          <img src="img/nokia/wcf-in-progress.png" alt="Mockup of the feature's in-progress state" class="img-header">
+            <div class="spacer-small-horizontal"></div>
+          <img src="img/nokia/wcf-in-progress.png" alt="Mockup of the feature's in-progress state" class="img-artefact">
           <div class="spacer-large-horizontal"></div>
-          <div class="content-box">
-            <h3 class="paragraph-header">How might we take a large amount of data and make it accessible?</h3>
-            <p class="paragraph">I maintained close communication with our team’s domain experts to learn what data our domain expert user needed and why. Knowing that different users may have different requirements, my goal was not to give them the “right” answer. My goal was to make the data accessible so they can easily find what they need when they need it.</p>
-            <div class="spacer-mini-horizontal"></div>
-            <h3 class="half-paragraph-header">Solution</h3>
-            <p class="paragraph">The large amount of data is broken up into two levels: a big picture view sorted by most critical to least critical scenarios, and a detailed view for advanced troubleshooting.</p>
-          </div>
+          <h3 class="paragraph-above-header">Refine</h3>
+          <h3 class="paragraph-header">How might we take a large amount of data and make it accessible?</h3>
+          <p class="paragraph">I maintained close communication with our team’s domain experts to learn what data our domain expert user needed and why. Knowing that different users may have different requirements, my goal was not to give them the “right” answer. My goal was to make the data accessible so they can easily find what they need when they need it.</p>
           <div class="spacer-mini-horizontal"></div>
-          <a href="img/nokia/wcf-results.png" target="_blank"><img src="img/nokia/wcf-results.png" alt="Interaction flow of results pages" class="img-header image-link"></a>
+          <h3 class="half-paragraph-header">Solution</h3>
+          <p class="paragraph">The large amount of data is broken up into two levels: a big picture view sorted by most critical to least critical scenarios, and a detailed view for advanced troubleshooting.</p>
+          <div class="spacer-mini-horizontal"></div>
+          <img src="img/nokia/wcf-results.png" alt="Interaction flow of results pages" class="img-artefact">
         </section>
 
         <div class="spacer-large-horizontal"></div>
@@ -155,7 +152,7 @@
             <p class="paragraph">After reviewing the initial design with the team and incorporating their feedback, I produced interaction flow charts with detailed specs. These documents were constantly evolving as the product team moved from one iteration to the next. As project road markers moved or changed, I updated these documents to provide a single source of truth for the product team.</p>
           </div>
           <div class="spacer-horizontal"></div>
-          <img src="img/nokia/wcf-docs.png" alt="Blurred out screenshot of interaction documents" class="img-header">
+          <img src="img/nokia/wcf-docs.png" alt="Blurred out screenshot of interaction documents" class="img-artefact">
         </section>
 
         <div class="spacer-large-horizontal"></div>
@@ -169,36 +166,17 @@
 
         <div class="spacer-large-horizontal"></div>
 
-        <p class="content-box contact-text">Interested in chatting about this project?</p>
-        <p class="content-box contact-text">Connect with me on <a class="intext-link" target="_blank" href="https://www.linkedin.com/in/jessie-li-82170291/">LinkedIn</a> or shoot me an <a class="intext-link" href="mailto:lidel@sfu.ca">email</a>!</p>
+        <h2>Interested in chatting about this project?</h2>
+        <h2>Connect with me on <a class="intext-link" target="_blank" href="https://www.linkedin.com/in/jessie-li-82170291/">LinkedIn</a>.</h2>
+
+        <div class="spacer-large-horizontal"></div>
+
 
       </div>
 
 
     </main>
 
-    <footer class="become-column">
-      <div class="footer-section become-column">
-        <h2 class="footer-header">CONTACT ME</h2>
-        <ul class="footer-list">
-          <li class="footer-list-item"><a href="mailto:lidel@sfu.ca" class="footer-link" target="_blank">lidel@sfu.ca</a></li>
-          <li class="footer-list-item"><a href="https://www.linkedin.com/in/jessie-li-82170291/" class="footer-link" target=”_blank”>LinkedIn</a></li>
-          <li class="footer-list-item">778-882-0202</li>
-        </ul>
-      </div>
-      <div class="footer-section become-column">
-        <h2 class="footer-header">MY EXPERIENCES</h2>
-        <ul class="footer-list">
-          <li class="footer-list-item"><a href="nokia" class="footer-link">My Nokia Internship</a></li>
-          <li class="footer-list-item"><a href="tumblershare" class="footer-link">TumblerShare</a></li>
-          <li class="footer-list-item"><a href="helpmate" class="footer-link">HelpMate</a></li>
-          <li class="footer-list-item"><a href="strava-team-challenges" class="footer-link">Strava Team Challenges</a></li>
-          <li class="footer-list-item"><a href="vmf-class-kit" class="footer-link">VMF Classroom Kit</a></li>
-          <li class="footer-list-item"><a href="airbnb-journals" class="footer-link">Airbnb Journals</a></li>
-        </ul>
-      </div>
-
-    </footer>
 
     <script src="js/scrollDownBar.js"></script>
     <script src="js/responsiveNav.js"></script>

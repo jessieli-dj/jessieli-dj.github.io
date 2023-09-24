@@ -1,19 +1,25 @@
 /* Navigation Bar */
 
+:root {
+  --main-accent-color: #4F60FF;
+  --hover-accent-color: #9CA6FF;
+  --main-grey-accent: rgba(0,0,0,0.6);
+}
+
 .nav-link {
-  color: #6A75D4;
+  color: var(--main-accent-color);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
   text-decoration: none;
-  padding: 1rem 1rem;
-  font-family: 'Work Sans', sans-serif;
-  font-size: 0.85rem;
 }
 
 .home-link {
-  color: #6A75D4;
+  color: var(--main-accent-color);
   text-decoration: none;
-  padding: 1rem 1rem;
+  padding: 1rem 0rem;
   font-size: 1rem;
-  font-family: 'Mada', sans-serif;
   font-weight: 900;
 }
 
@@ -22,44 +28,37 @@
 }
 
 .nav-link:hover, .nav-link:focus, .home-link:hover, .home-link:focus, .case-nav-link:hover, .case-nav-link:focus, .nav-button:hover, .nav-button:focus {
-  color: #BEA6D3;
-  border-bottom: 3px solid #BEA6D3;
+  color: var(--main-accent-color);
 }
 
 /* In-text Links */
 
 .intext-link {
-  color: #6A75D4;
-  font-family: 'Mada', sans-serif;
+  color: var(--main-accent-color);
   text-decoration: none;
+  font-weight: 500;
 }
 
 .intext-link:hover, .intext-link:focus {
-  color: #BEA6D3;
+  color: white;
+  background-color: var(--main-accent-color);
 }
 
 /* CTA Buttons */
 
 .cta-button {
-  padding: 1rem 2rem;
-  text-decoration: none;
-  border-radius: 2rem;
-  font-size: 0.75rem;
   color: white;
-  background-color: #6A75D4;
-  font-weight: 700;
+  text-decoration: none;
+  font-weight: 500;
+  background-color: black;
+  padding: 4px 16px 6px 16px;
+  width: 180px;
+  font-size: 16px;
   transition: all 0.25s ease;
 }
 
 .cta-button:hover{
-  padding: 1rem 2rem;
-  text-decoration: none;
-  border-radius: 2rem;
-  font-size: 0.75rem;
-  color: white;
-  background-color: #BEA6D3;
-  font-weight: 700;
-  transition: all 0.25s ease;
+    background-color: var(--main-grey-accent);
 }
 
 .image-link {
@@ -72,18 +71,4 @@
 
 .image-link:hover {
   border: #2B2B2B 3px solid;
-}
-
-.footer-link {
-  text-decoration: none;
-  color: white;
-  font-family: 'Mada', sans-serif;
-  font-size: 0.85rem;
-}
-
-.footer-link:hover{
-  color: rgba(255,255,255,0.5);
-  -webkit-transition-duration: .2s;
-  -moz-transition-duration: .2s;
-  -o-transition-duration: .2s;
 }
