@@ -43,45 +43,55 @@
     <main>
       <div class="spacer-large-horizontal"></div>
       <div>
-        <h1 class="project-title">Nokia Network Services Platform</h1>
-        <p class="project-intro">I worked closely with a senior interaction designer to create an experience around leveraging automation to help network engineers save time and reduce risk of human error.</p>
-
-        <div class="spacer-mini-horizontal"></div>
-        <h2 class="project-subheader">Role</h2>
-        <ul class="small-text" style="margin-top:0">
-          <li class="paragraph">Applied design thinking to provide clear value for the end-user and business</li>
-          <li class="paragraph">Produced high-fidelity mockups and design documentation consistent with the existing design system</li>
-          <li class="paragraph">Collaborated with the development team throughout the implementation phase to clarify and refine deliverables</li>
-          <li class="paragraph">Conducted design reviews regularly as part of an iterative process leading to a stronger proposal</li>
-        </ul>
+        <div class="flexbox">
+          <div class="project-intro-text">
+            <h1 class="project-title">Nokia Network Services Platform</h1>
+              <p class="project-intro">I designed a tool for network engineers to save time and reduce risk of human error by using automation.</p>
+              <div class="spacer-small-horizontal"></div>
+              <div class="role">
+                <h2 class="project-subheader">My Role</h2>
+                <ul class="project-role" style="margin-top:0">
+                  <li><b>Design Thinking</b> - Assembled the team to understand user and business needs</li>
+                  <li><b>Mockups and Design Specs</b> - Created pixel-perfect mockups and documentation following design system patterns</li>
+                  <li><b>Developer Collaboration</b> - Collaborated with the development team throughout implementation to clarify and refine design</li>
+                  <li><b>Iterative Process</b> - Conducted design reviews and iteratively improving design proposal with mentorship from senior designers</li>
+                </ul>
+              </div>
+              
+           </div>
+          <div>
+            <img src="img/nokia/case-study-banner.png" alt="Mockup of an interface on a Mac desktop" class="project-banner">
+          </div>
+        </div>
+        
 
         <div class="spacer-small-horizontal"></div>
 
-        <img src="img/nokia/case-study-banner.png" alt="Mockup of an interface on a Mac desktop" class="img-artefact">
 
         <div class="spacer-large-horizontal"></div>
 
         <section>
-          <h2 class="paragraph-header">Context</h2>
+          <h2 class="paragraph-header">The Problem</h2>
+          <p class="paragraph">Network engineers must create contingencies in the event of network failure to avoid causing cause disruptions to internet service for customers. Since networks can include up to thousands of objects, <strong>simulating and analyzing failure scenarios one at a time is extremely time consuming and creates a large margin for human error.</strong> This is where our product, IP/MPLS Simulation, came in.</p>
+        </section>
+
+
+        <div class="spacer-large-horizontal"></div>
+        
+        <section>
+          <h2 class="paragraph-header">The Tool</h2>
           <p class="paragraph">
-            The IP/MPLS Simulation web app is a sandbox that network engineers can use to import a version of their IP network, play around with network configurations and simulate what-if scenarios.
+            The IP/MPLS Simulation web app is a sandbox that network engineers can use to import a version of their network, play around with configurations and simulate what-if scenarios to guide contingencies and optimizations.
           </p>
           <p class="paragraph">I designed the <strong>Worst Case Failure Scenarios</strong> tool for IP/MPLS Simulation, which allows engineers to choose any number of objects in their network and generate scenarios to see the consequences of that object failing.</p>
         </section>
 
-        <div class="spacer-large-horizontal"></div>
-
-        <section>
-          <h3 class="paragraph-above-header">Define</h3>
-          <h2 class="paragraph-header">Problem Statement</h2>
-          <p class="paragraph">Network engineers must create contingencies in the event of network failure to avoid causing cause disruptions to internet service for customers. Since networks can include up to thousands of objects, <strong>simulating and analyzing failure scenarios one at a time is extremely time consuming and creates a large margin for human error.</strong></p>
-        </section>
 
         <div class="spacer-large-horizontal"></div>
 
         <section>
-          <h3 class="paragraph-above-header">Define</h3>
-          <h2 class="paragraph-header">Value Proposition</h2>
+          <h2 class="paragraph-header">User Needs</h2>
+          <p class="paragraph">There were two main user values that became the guiding principles for my design decisions. </p>
           <ol class="list">
             <li><strong>Reduce the margin of error while analyzing data.</strong> Data is displayed in a simple table organized into relevant categories of information. Infotips are used where necessary for improved readability and understanding.</li>
             <li><strong>Free up time for engineers to spend on other tasks.</strong> Automating this task frees up engineers to work on other tasks, allowing them to get more done in the same amount of time.</li>
