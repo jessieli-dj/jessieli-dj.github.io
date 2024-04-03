@@ -4,7 +4,6 @@
   --main-accent-color: #4F60FF;
   --secondary-accent-color: #9CA6FF;
   --main-grey-accent: rgba(0,0,0,0.6);
-  --main-text: rgba(0,0,0,0.85);
 }
 
 .nav-link {
@@ -29,7 +28,7 @@
 }
 
 .nav-link:hover, .nav-link:focus, .home-link:hover, .home-link:focus, .case-nav-link:hover, .case-nav-link:focus, .nav-button:hover, .nav-button:focus {
-  color: var(--main-accent-color);
+  color: var(--secondary-accent-color);
 }
 
 /* In-text Links */

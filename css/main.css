@@ -23,15 +23,13 @@ body {
 }
 
 nav {
-  background-color: #F6F7F9;
+  background-color: white;
   display: flex;
   justify-content:space-between;
   align-items: center;
   align-self: flex-start;
   padding: 0 10%;
-  max-width: 50rem;
   margin: auto;
-
 }
 
 .myNav {
