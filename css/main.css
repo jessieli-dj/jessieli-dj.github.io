@@ -10,17 +10,15 @@ html {
 
 * {
   font-family: "Zen Kaku Gothic New", sans-serif;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 body {
   margin: auto;
-  background-color: #f7f6f9;
 }
 
-section {
+.narrow-section {
   padding: 0 10%;
-  max-width: 50rem;
   margin: auto;
 }
 
@@ -62,8 +60,6 @@ main {
 }
 
 footer {
-  /* background-color: #2B2B2B; */
-  /* padding: 3rem 25%; */
   justify-content:space-around;
   margin-top: 5rem;
   display: flex;
@@ -131,6 +127,15 @@ footer {
   width:100%;
 }
 
+
+.flex-twothird {
+  flex: 1 0 60%;
+}
+
+.flex-onethird {
+  flex: 1 0 30%;
+}
+
 .flexbox {
   display: flex;
   flex-wrap: wrap;
@@ -138,9 +143,10 @@ footer {
   align-items: center;
 }
 
-.flexbox div {
-  flex: 1 1 300px;
+.flexbox .flex-half {
+  flex: 1 1 40%;
 }
+
 
 .card {
   flex: 1 1 100px;
@@ -153,13 +159,8 @@ footer {
 
 .project-banner {
   width: 100%;
-  padding: 5% 5%;
-  background-color: #799BC0;
+  /* padding: 5% 5%; */
 }
-
-.project-intro-text {
-  padding: 5% 5%;
-}
-
-.role {
+.project-title {
+  color:white;
 }
