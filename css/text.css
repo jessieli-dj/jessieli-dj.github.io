@@ -2,7 +2,7 @@
   --main-text: rgba(0,0,0,0.85);
   --secondary-text: rgba(255,255,255,0.85);
   --aquanow-color: #1166c829;
-  --secondary-accent-color: #9CA6FF;
+  --secondary-accent-color: #dadeff;
 }
 h1 {
   margin-bottom: 24px;
@@ -21,7 +21,8 @@ h4 {
 
 b {
   /* border-bottom: solid 3px var(--aquanow-color); */
-  background-color: var(--aquanow-color);
+  background-color: var(--secondary-accent-color);
+  padding: 0 4px;
 }
 
 #intro-text {
@@ -32,7 +33,6 @@ b {
 
 #intro-paragraph {
   color: #000;
-  font-size: 28px;
   font-weight: 500;
 }
 
@@ -42,9 +42,9 @@ b {
   font-weight: 900;
 }
 
-.header::after{
+/* .header::after{
   content: " ―"
-}
+} */
 
 .blurb-header {
   color: #000;
