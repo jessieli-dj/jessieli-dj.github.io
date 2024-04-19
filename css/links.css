@@ -62,13 +62,11 @@
 }
 
 .image-link {
-  border: #DBDBDB 3px solid;
-  margin-top: 2rem;
-  transition: all 0.25s ease;
-  background-color: white;
-  text-decoration: none;
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
 }
 
 .image-link:hover {
-  border: #2B2B2B 3px solid;
+  opacity: 0.8;
+  transition: opacity 0.3s ease-in-out;
 }

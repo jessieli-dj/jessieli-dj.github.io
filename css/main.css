@@ -102,17 +102,21 @@ footer {
   margin-right: 0.5rem;
 }
 
-.project {
-  /* box-shadow: 0rem 0 1rem #D9D9D9; */
+.project-image-left {
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 8rem;
-  background-color: white;
+}
+
+.project-image-right {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  margin-bottom: 8rem;
 }
 
 .img-header {
-  flex: 1 1 600px;
-  align-self: stretch;
+  flex: 1 1 450px;
+  /* align-self: stretch; */
   box-shadow: 0rem 0 1rem #D9D9D9;
 
 }
@@ -160,8 +164,12 @@ footer {
 
 .project-banner {
   width: 100%;
-  /* padding: 5% 5%; */
+  flex: 1 1 450px;
 }
 .project-title {
   color:white;
+}
+
+.project-intro {
+  flex-wrap: wrap-reverse;
 }

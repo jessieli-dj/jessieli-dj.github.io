@@ -104,6 +104,8 @@ b {
     color: rgba(0,0,0,0.4);
 }
 
+/**DARK MODE**/
+
 .project-intro {
   font-size: 20px;
   margin-top: 0;
@@ -145,6 +147,52 @@ b {
 }
 
 .project-role li::marker {
+  color: #71D988;
+}
+
+/**LIGHT MODE**/
+
+.project-intro-dark {
+  font-size: 20px;
+  margin-top: 0;
+  color: var(--main-text);
+}
+
+.project-title-dark {
+  font-size: 2rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  color: var(--main-text);
+  font-weight: 700;
+}
+
+.project-subheader-dark {
+  font-weight: 700;
+  color: var(--main-text);
+  margin: 0.5rem 0;
+}
+
+.project-subheader-dark::after{
+  content: " ―"
+}
+
+.project-role-dark {
+  color: var(--main-text);
+  font-size: 16px;
+}
+
+.project-role-dark li{
+  list-style-type: "✔  ";
+  font-size: 16px;
+  margin: 24px 0;
+  font-weight: 400;
+}
+
+.project-role-dark li b {
+  font-size: 16px;
+}
+
+.project-role-dark li::marker {
   color: #71D988;
 }
 
