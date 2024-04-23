@@ -8,8 +8,19 @@ h1 {
   margin-bottom: 24px;
 }
 
+h2 {
+  font-weight: 900;
+  margin-bottom: 0.75rem;
+  margin-top: 0;
+  font-size: 20px;
+}
+
 h3 {
-  margin-bottom: 0;
+  font-weight: 900;
+  margin-bottom: 0.75rem;
+  margin-top: 0;
+  font-size: 16px;
+  color: #27B2B2;
 }
 
 h4 {
@@ -59,13 +70,6 @@ b {
   font-size: 18px;
 }
 
-
-.paragraph-header{
-  font-weight: 900;
-  margin-bottom: 0.75rem;
-  margin-top: 0;
-}
-
 .half-paragraph-header {
   font-size: 1.25rem;
   line-height: 1.5rem;
@@ -78,7 +82,7 @@ b {
 .paragraph {
   color: var(--main-text);
   margin-top: 0;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .quote {
