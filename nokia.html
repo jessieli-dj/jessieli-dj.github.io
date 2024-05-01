@@ -41,44 +41,46 @@
     </nav>
 
     <main>
-      <div class="spacer-large-horizontal"></div>
+      <div class="flexbox project-intro" style="background-color: #E0EBFF;">
+        <div class="project-intro-text flex-onethird" style="padding:10% 0 5% 10%">
+          <h1 class="project-title-dark"><img src="img/nokia/logo.svg" alt="Nokia Logo"></h1>
+            <p class="project-intro-dark">I delivered customer-facing features in collaboration with a senior interaction designer and helped establish the UX research presence by supporting internal and customer research initiatives.</p>
+            <div class="spacer-small-horizontal"></div>
+            <div class="role">
+              <h2 class="project-subheader-dark">Successes</h2>
+              <ul class="project-role-dark" style="margin-top:0">
+                <li>Entrusted with designing two features for product releases throughout my term due to my ability to quickly adapt to a highly technical domain.</li>
+                <li>Smooth collaboration with product team, setting expectations frequently and clearly to reduce miscommunications and manage deadlines effectively. </li>
+                <li>Learned how to apply user research methodologies and generate design recommendations through collaboration with UX researcher.</li>
+              </ul>
+            </div>
+            
+         </div>
+        <div class="flex-half">
+          <div class="spacer-large-horizontal"></div>
+          <img src="img/nokia/case-study-banner.png" alt="Mockup of an interface on a Mac desktop" class="project-banner">
+        </div>
+      </div>
       <div>
-        <div class="flexbox">
-          <div class="project-intro-text">
-            <h1 class="project-title">Nokia Network Services Platform</h1>
-              <p class="project-intro">I designed a tool for network engineers to save time and reduce risk of human error by using automation.</p>
-              <div class="spacer-small-horizontal"></div>
-              <div class="role">
-                <h2 class="project-subheader">My Role</h2>
-                <ul class="project-role" style="margin-top:0">
-                  <li><b>Design Thinking</b> - Assembled the team to understand user and business needs</li>
-                  <li><b>Mockups and Design Specs</b> - Created pixel-perfect mockups and documentation following design system patterns</li>
-                  <li><b>Developer Collaboration</b> - Collaborated with the development team throughout implementation to clarify and refine design</li>
-                  <li><b>Iterative Process</b> - Conducted design reviews and iteratively improving design proposal with mentorship from senior designers</li>
-                </ul>
-              </div>
-              
-           </div>
-          <div>
-            <img src="img/nokia/case-study-banner.png" alt="Mockup of an interface on a Mac desktop" class="project-banner">
+            
           </div>
         </div>
         
-
-        <div class="spacer-small-horizontal"></div>
-
-
         <div class="spacer-large-horizontal"></div>
 
-        <section>
-          <h2 class="paragraph-header">The Problem</h2>
-          <p class="paragraph">Network engineers must create contingencies in the event of network failure to avoid causing cause disruptions to internet service for customers. Since networks can include up to thousands of objects, <strong>simulating and analyzing failure scenarios one at a time is extremely time consuming and creates a large margin for human error.</strong> This is where our product, IP/MPLS Simulation, came in.</p>
+        <section class="narrow-section flexbox">
+          <div class="flex-half">
+            <h2 class="paragraph-header">The Problem</h2>
+            <p class="paragraph">Network engineers must create contingencies in the event of network failure to avoid causing cause disruptions to internet service for customers. Since networks can include up to thousands of objects, <strong>simulating and analyzing failure scenarios one at a time is extremely time consuming and creates a large margin for human error.</strong> This is where our product, IP/MPLS Simulation, came in.</p>
+          </div>
+          <div>
+            <img src="img/nokia/engineer.svg" alt="illustration of two elderly people" class="project-banner">
+          </div>
         </section>
-
 
         <div class="spacer-large-horizontal"></div>
         
-        <section>
+        <section class="narrow-section">
           <h2 class="paragraph-header">The Tool</h2>
           <p class="paragraph">
             The IP/MPLS Simulation web app is a sandbox that network engineers can use to import a version of their network, play around with configurations and simulate what-if scenarios to guide contingencies and optimizations.
@@ -89,46 +91,50 @@
 
         <div class="spacer-large-horizontal"></div>
 
-        <section>
-          <h2 class="paragraph-header">User Needs</h2>
+        <section class="narrow-section">
+          <h2 class="paragraph-header">Primary User Needs</h2>
           <p class="paragraph">There were two main user values that became the guiding principles for my design decisions. </p>
-          <ol class="list">
-            <li><strong>Reduce the margin of error while analyzing data.</strong> Data is displayed in a simple table organized into relevant categories of information. Infotips are used where necessary for improved readability and understanding.</li>
-            <li><strong>Free up time for engineers to spend on other tasks.</strong> Automating this task frees up engineers to work on other tasks, allowing them to get more done in the same amount of time.</li>
-          </ol>
+          <div class="spacer-horizontal"></div>
+          <div class="flexbox">
+            <div class="flex-onethird"><img src="img/nokia/warning.svg" alt="lock on a computer monitor" class="project-banner"></div>
+            <div class="flex-twothird"><p class="paragraph"><strong>Reduce the margin of error while analyzing data. </strong>Data is displayed in a simple table organized into relevant categories of information. Infotips are used where necessary for improved readability and understanding.</p></div>
+          </div>
+          <div class="spacer-horizontal"></div>
+          <div class="flexbox">
+            <div class="flex-onethird"><img src="img/nokia/multitasking.svg" alt="lock on a computer monitor" class="project-banner"></div>
+            <div class="flex-twothird"><p class="paragraph"><strong>Free up time for engineers to spend on other tasks.</strong> Automating this task frees up engineers to work on other tasks, allowing them to get more done in the same amount of time.</p></div>
+          </div>
         </section>
 
         <div class="spacer-large-horizontal"></div>
 
-        <section>
+        <section class="narrow-section">
             <h3 class="paragraph-above-header">Design</h3>
             <h2 class="paragraph-header">Preliminary Explorations</h2>
-            <p class="paragraph">The first thing I did was facilitate a meeting with the developers, QA, and product manager, to start everyone on the same page about the general functionality. I recorded requirements from the meeting to keep me on the project road map as I began my design explorations.</p>
-            <p class="paragraph">Breaking down the flow into three chunks allowed me to understand the user’s perspective and thoughts at different stages of the process.</p>
+            <p class="paragraph">I started by facilitating a meeting with the developers, QA, and product manager, to align everyone on the general functionality. I recorded requirements from the meeting to keep me on the project road map as I began my design explorations.</p>
+            <p class="paragraph">Breaking down the flow into three chunks allowed me to understand the user’s perspective and thoughts at different stages of the process. I presented a preliminary navigation chart to the product team, which kept the team informed about my progress and generated discussion. This resulted in feedback that helped direct my next round of iterating.</p>
           <div class="spacer-horizontal"></div>
-          <div>
-            <div class="card">
+          <div class="flexbox" style="align-items: start;">
+            <div class="flex-onethird card">
               <h5 class="paragraph-above-header">Step 1</h5>
-              <h4 class="half-paragraph-header">Selecting Objects</h4>
-              <p class="half-paragraph">What information does the user need to decide if they want to include an object or not?</p>
-              <p class="half-paragraph">How many will they want to select at once?</p>
+              <h3 class="half-paragraph-header">Selecting Objects</h4>
+              <p class="paragraph">What information does the user need to decide if they want to include an object or not?</p>
+              <p class="paragraph">How many will they want to select at once?</p>
             </div>
-            <div class="flex-third card">
+            <div class="flex-onethird card">
               <h5 class="paragraph-above-header">Step 2</h5>
               <h4 class="half-paragraph-header">Generating the Scenarios</h4>
-              <p class="half-paragraph">How long will it take?</p>
-              <p class="half-paragraph">Can the user use the app while it’s generating scenarios?</p>
-              <p class="half-paragraph">What if the user decides to cancel the simulation?</p>
+              <p class="paragraph">How long will it take?</p>
+              <p class="paragraph">Can the user use the app while it’s generating scenarios?</p>
+              <p class="paragraph">What if the user decides to cancel the simulation?</p>
             </div>
             <div class="flex-third card">
               <h5 class="paragraph-above-header">Step 3</h5>
-              <h4 class="half-paragraph-header">Viewing Results</h4>
-              <p class="half-paragraph">What information do users want to know about the scenarios?</p>
-              <p class="half-paragraph">How can we break down the information to avoid overwhelming the user?</p>
+              <h4 class="paragraph-header">Viewing Results</h4>
+              <p class="paragraph">What information do users want to know about the scenarios?</p>
+              <p class="paragraph">How can we break down the information to avoid overwhelming the user?</p>
             </div>
           </div>
-          <div class="spacer-small-horizontal"></div>
-          <p class="paragraph">I presented a preliminary navigation chart to the product team, which kept the team informed about my progress and generated discussion. This resulted in feedback that helped direct my next round of iterating.</p>
         </section>
 
         <div class="spacer-large-horizontal"></div>
