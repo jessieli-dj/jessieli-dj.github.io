@@ -44,7 +44,7 @@
       <div class="flexbox project-intro" style="background-color: #E0EBFF;">
         <div class="project-intro-text flex-onethird" style="padding:10% 0 5% 10%">
           <h1 class="project-title-dark"><img src="img/nokia/logo.svg" alt="Nokia Logo"></h1>
-            <p class="project-intro-dark">I delivered customer-facing features in collaboration with a senior interaction designer and helped establish the UX research presence by supporting internal and customer research initiatives.</p>
+            <p class="project-intro-dark">I delivered customer-facing features for a major product release in collaboration with a senior interaction designer.</p>
             <div class="spacer-small-horizontal"></div>
             <div class="role">
               <h2 class="project-subheader-dark">Successes</h2>
@@ -95,85 +95,62 @@
           <h2 class="paragraph-header">Primary User Needs</h2>
           <p class="paragraph">There were two main user values that became the guiding principles for my design decisions. </p>
           <div class="spacer-horizontal"></div>
-          <div class="flexbox">
-            <div class="flex-onethird"><img src="img/nokia/warning.svg" alt="lock on a computer monitor" class="project-banner"></div>
-            <div class="flex-twothird"><p class="paragraph"><strong>Reduce the margin of error while analyzing data. </strong>Data is displayed in a simple table organized into relevant categories of information. Infotips are used where necessary for improved readability and understanding.</p></div>
+          <div class="flexbox" style="align-items: flex-start;">
+            <div class="flex-half"><p class="paragraph"><strong>01 / Reduce the margin of error while analyzing data.</strong></p> 
+              <p class="paragraph">Data is displayed in a simple table organized into relevant categories of information. Infotips are used where necessary for improved readability and understanding.</p></div>
+            <div class="flex-half"><p class="paragraph"><strong>02 / Free up time for engineers to spend on other tasks.</strong></p>
+              <p class="paragraph">Automating this task frees up engineers to work on other tasks, allowing them to get more done in the same amount of time.</p></div>
           </div>
           <div class="spacer-horizontal"></div>
-          <div class="flexbox">
-            <div class="flex-onethird"><img src="img/nokia/multitasking.svg" alt="lock on a computer monitor" class="project-banner"></div>
-            <div class="flex-twothird"><p class="paragraph"><strong>Free up time for engineers to spend on other tasks.</strong> Automating this task frees up engineers to work on other tasks, allowing them to get more done in the same amount of time.</p></div>
-          </div>
         </section>
 
         <div class="spacer-large-horizontal"></div>
 
         <section class="narrow-section">
-            <h3 class="paragraph-above-header">Design</h3>
             <h2 class="paragraph-header">Preliminary Explorations</h2>
             <p class="paragraph">I started by facilitating a meeting with the developers, QA, and product manager, to align everyone on the general functionality. I recorded requirements from the meeting to keep me on the project road map as I began my design explorations.</p>
             <p class="paragraph">Breaking down the flow into three chunks allowed me to understand the user’s perspective and thoughts at different stages of the process. I presented a preliminary navigation chart to the product team, which kept the team informed about my progress and generated discussion. This resulted in feedback that helped direct my next round of iterating.</p>
-          <div class="spacer-horizontal"></div>
-          <div class="flexbox" style="align-items: start;">
-            <div class="flex-onethird card">
-              <h5 class="paragraph-above-header">Step 1</h5>
-              <h3 class="half-paragraph-header">Selecting Objects</h4>
-              <p class="paragraph">What information does the user need to decide if they want to include an object or not?</p>
-              <p class="paragraph">How many will they want to select at once?</p>
-            </div>
-            <div class="flex-onethird card">
-              <h5 class="paragraph-above-header">Step 2</h5>
-              <h4 class="half-paragraph-header">Generating the Scenarios</h4>
-              <p class="paragraph">How long will it take?</p>
-              <p class="paragraph">Can the user use the app while it’s generating scenarios?</p>
-              <p class="paragraph">What if the user decides to cancel the simulation?</p>
-            </div>
-            <div class="flex-third card">
-              <h5 class="paragraph-above-header">Step 3</h5>
-              <h4 class="paragraph-header">Viewing Results</h4>
-              <p class="paragraph">What information do users want to know about the scenarios?</p>
-              <p class="paragraph">How can we break down the information to avoid overwhelming the user?</p>
-            </div>
-          </div>
+          <div class="spacer-small-horizontal"></div>
+          <img src="img/nokia/flow.png" alt="Mockup of the feature's in-progress state" class="project-banner">
         </section>
 
         <div class="spacer-large-horizontal"></div>
 
-        <section>
-            <h3 class="paragraph-above-header">Refine</h3>
-            <h3 class="paragraph-header">How might we make the waiting stage simple and painless?</h3>
-            <p class="paragraph">Since the scenarios could take hours to generate, I considered the experience from the user’s perspective to identify pain points that needed to be addressed, and in what order of priority. The most critical pain point was any outcome where the user would have to run the scenarios all over again, possibly due to lost or corrupt data.</p>
+        <section class="narrow-section">
+            <h2 class="paragraph-header">Running the Scenarios</h2>
+            <p class="paragraph">Since the scenarios could take hours to generate, I considered the experience from the user’s perspective to identify pain points that needed to be addressed, and in what order of priority. The most critical pain point was any outcome where the user would have to run the scenarios all over again, possibly due to lost or corrupt data. How might we make the waiting stage simple and painless?</p>
             <div class="spacer-mini-horizontal"></div>
             <h3 class="half-paragraph-header">Solution</h3>
-            <p class="paragraph">A GUI-blocking dialog prevents user actions that might cause inaccuracy or loss of data, and provides assurance to users about the progress of the scenarios.</p>
-            <div class="spacer-small-horizontal"></div>
-          <img src="img/nokia/wcf-in-progress.png" alt="Mockup of the feature's in-progress state" class="img-artefact">
+            <p class="paragraph">A GUI-blocking dialog prevents user actions that might cause inaccuracy or loss of data.</p>
+        </section>
+        <img src="img/nokia/wcf-in-progress-annotated.png" alt="Mockup of the feature's in-progress state" class="project-banner">
+          
           <div class="spacer-large-horizontal"></div>
-          <h3 class="paragraph-above-header">Refine</h3>
-          <h3 class="paragraph-header">How might we take a large amount of data and make it accessible?</h3>
-          <p class="paragraph">I maintained close communication with our team’s domain experts to learn what data our domain expert user needed and why. Knowing that different users may have different requirements, my goal was not to give them the “right” answer. My goal was to make the data accessible so they can easily find what they need when they need it.</p>
+          <section class="narrow-section">
+          <h2 class="paragraph-header">Viewing Scenario Results</h2>
+          <p class="paragraph">I consulted domain experts to learn what data our domain expert user needed and why. Because different users may have different requirements, my goal was not to give them the “right” answer. My goal was to make the data accessible so they can easily find what they need when they need it. How might we take a large amount of data and make it accessible?</p>
           <div class="spacer-mini-horizontal"></div>
           <h3 class="half-paragraph-header">Solution</h3>
-          <p class="paragraph">The large amount of data is broken up into two levels: a big picture view sorted by most critical to least critical scenarios, and a detailed view for advanced troubleshooting.</p>
+          <p class="paragraph">The large amount of data is broken up into two levels: a big picture view sorted by most critical to least critical scenarios, and a detailed view for advanced troubleshooting. </p>
           <div class="spacer-mini-horizontal"></div>
-          <img src="img/nokia/wcf-results.png" alt="Interaction flow of results pages" class="img-artefact">
         </section>
+        
+        <img src="img/nokia/wcf-result.png" alt="Interaction flow of results pages" class="project-banner">
 
         <div class="spacer-large-horizontal"></div>
 
-        <section class="content-box-wide">
+        <section class="narrow-section">
           <div class="content-box">
-            <h3 class="paragraph-above-header">Deliver</h3>
             <h2 class="paragraph-header">Evolving design and documentation</h2>
             <p class="paragraph">After reviewing the initial design with the team and incorporating their feedback, I produced interaction flow charts with detailed specs. These documents were constantly evolving as the product team moved from one iteration to the next. As project road markers moved or changed, I updated these documents to provide a single source of truth for the product team.</p>
           </div>
-          <div class="spacer-horizontal"></div>
-          <img src="img/nokia/wcf-docs.png" alt="Blurred out screenshot of interaction documents" class="img-artefact">
+          <div class="spacer-small-horizontal"></div>
+          <img src="img/nokia/wcf-docs.png" alt="Blurred out screenshot of interaction documents" class="project-banner">
         </section>
 
         <div class="spacer-large-horizontal"></div>
 
-        <section class="content-box">
+        <section class="narrow-section">
           <h2 class="paragraph-header">Reflection</h2>
           <p class="paragraph">A major challenge was putting myself into the user’s shoes. As a design student, I was as far away from our intended user as you could get. For me, an interface full of technical jargon would be overwhelming and confusing. For our user, it might be just right. I continuously improved my understanding of the domain by corresponding with domain experts on my team.</p>
           <p class="paragraph">The more I learned, the more I began to empathize with our user, allowing me to strike a balance of designing for general usability versus the specialized needs of our extremely technical expert user.</p>
@@ -181,15 +158,14 @@
         </section>
 
         <div class="spacer-large-horizontal"></div>
-
-        <h2>Interested in chatting about this project?</h2>
-        <h2>Connect with me on <a class="intext-link" target="_blank" href="https://www.linkedin.com/in/jessie-li-82170291/">LinkedIn</a>.</h2>
+        <section class="narrow-section">
+          <h2>Interested in chatting about this project?</h2>
+          <h2>Connect with me on <a class="intext-link" target="_blank" href="https://www.linkedin.com/in/jessie-li-82170291/">LinkedIn</a>.</h2></section>
 
         <div class="spacer-large-horizontal"></div>
 
 
       </div>
-
 
     </main>
 
