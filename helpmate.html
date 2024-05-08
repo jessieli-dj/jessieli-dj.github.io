@@ -10,9 +10,13 @@
     <!-- // Meta tags -->
 
     <!-- Links // -->
-    <link rel="stylesheet" href="css/combined.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Mada:wght@400;500;600;700;900&family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/links.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/text.css">
+    <link rel="stylesheet" href="css/spacers.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@500;900&display=swap" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <!-- // Links -->
 
@@ -29,210 +33,202 @@
 
   <body>
     <nav class="sticky" id="topBar">
-      <a href="/" class="home-link">← Back to Home</a>
+      <a href="/" class="home-link">Jessie Li</a>
+      <div class="myNav" id="navbar">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#projects" class="nav-link">Projects</a>
+      </div>
     </nav>
 
     <main>
+      <div class="flexbox project-intro" style="background-color: #F3FAF0;">
+        <div class="project-intro-text flex-onethird" style="padding:10% 0 5% 10%">
+          <h1 class="project-title-dark"><img src="img/helpmate/logo.svg" alt="Aquanow Logo"></h1>
+            <p class="project-intro-dark">HelpMate is a community-based task finding app that provides an easy way for young people to connect with their communities while earning money or volunteer hours.</p>
+            <div class="spacer-small-horizontal"></div>
+            <div class="role">
+              <h2 class="project-subheader-dark">Successes</h2>
+              <ul class="project-role-dark" style="margin-top:0">
+                <li>Transformed complex use cases for two distinct users into intuitive user flows using personas and journey maps.</li>
+                <li>Facilitated usability testing and results analysis resulting in immediately actionable insights.</li>
+                <li>Created wireframes and interactive mockups using familiar interactions and information architecture</li>
+              </ul>
+            </div>
+            
+         </div>
+        <div class="flex-half">
+          <div class="spacer-large-horizontal"></div>
+          <img src="img/helpmate/case-study-banner.png" alt="Mockup of an interface on a Mac desktop" class="project-banner">
+        </div>
+      </div>
       <div class="spacer-large-horizontal"></div>
 
-      <section class="content-box-wide">
-        <h1 class="project-title">HelpMate, a task-based sharing economy app</h1>
-        <p class="project-intro">A community-based sharing economy app that allows people who need help with household chores to get connected to young people in their neighbourhoods.</p>
-
-        <div class="spacer-mini-horizontal"></div>
-
-        <h2 class="project-subheader">Role</h2>
-        <ul class="small-text">
-          <li class="paragraph">Transformed complex use cases for two distinct users into intuitive user flows using familiar interactions and information architecture</li>
-          <li class="paragraph">Developed and maintained a consistent design system from scratch</li>
-          <li class="paragraph">Facilitated usability testing and results analysis resulting in immediately actionable insights</li>
-        </ul>
-
-        <div class="spacer-small-horizontal"></div>
-        <img src="img/helpmate/case-study-banner.png" alt="Picture of three mockups" class="img-header">
-
+      <section class="narrow-section flexbox">
+        <div class="flex-twothird">
+            <h2 class="paragraph-header">The Problem We Were Solving</h2>
+            <p class="paragraph">For some demographics, such as people with disabilities and seniors, household chores can be an incredible burden. However, they may not have the money to hire a professional and/or feel hesitant about inviting a stranger into their home.</p>
+        </div>
+        <div class="flex-onethird">
+            <img src="img/helpmate/demographic.svg" alt="illustration of two elderly people" class="project-banner">
+        </div>
+      
       </section>
 
         <div class="spacer-large-horizontal"></div>
-        <section class="content-box">
-          <h2 class="paragraph-header">Problem Statement</h2>
-          <p class="paragraph">
-            For some demographics, such as people with disabilities and seniors, household chores can be an incredible burden. However, they may not have the money to hire a professional and/or feel hesitant about inviting a stranger into their home.
-          </p>
-        </section>
 
-        <div class="spacer-large-horizontal"></div>
-
-        <section class="content-box">
-          <h2 class="paragraph-header">Proposal</h2>
-          <p class="paragraph">HelpMate is a community-based task finding application that allows you to help their community members with household chores. The app provides an easy way for young people to connect with their communities while simultaneously earning some money or volunteer hours to put towards their education.</p>
-        </section>
-
-        <div class="spacer-large-horizontal"></div>
-
-        <section class="content-box-wide">
-          <div class="content-box">
-            <h2 class="paragraph-header">Competitor Analysis</h2>
-            <p class="paragraph">In our user research, we found that though many people had heard of Craigslist, they were reluctant to use it for job postings because they couldn't trust the sources. On the other hand, TaskRabbit has a formalized process that makes it great for professional freelancers but not necessarily your average person with some free time this weekend.</p>
-            <p class="paragraph"> HelpMate bridges the gap by providing a platform for an older high school demographic to help individuals who may not be able to do household chores, focusing on social reputation rather than formal processes.</p>
+        <section class="narrow-section flexbox">
+          <div class="flex-half">
+              
+            <h2 class="paragraph-header">Initial Competitor Analysis</h2>
+            <p class="paragraph">Our research showed that people are wary of using Craigslist for job postings due to trust issues with its sources. On the other hand, TaskRabbit's transactional system caters well to professional freelancers but may not be as appealing to the average person with some spare time.</p>
+            <p class="paragraph">This informed our 3 main design principles.</p>
           </div>
-          <div class="spacer-mini-horizontal"></div>
-          <img src="img/helpmate/competitor-analysis.png" alt="HelpMate placed in between Craigslist and TaskRabbit on a scale of informal versus formal" class="img-header">
+          <div class="flex-half">
+            <img src="img/helpmate/competitor-analysis.png" alt="HelpMate placed in between Craigslist and TaskRabbit on a scale of informal versus formal" class="project-banner">
+          </div>
         </section>
 
         <div class="spacer-large-horizontal"></div>
 
-        <section class="content-box-wide">
-          <div class="content-box">
-            <h2 class="paragraph-header">Working through complex user flows</h2>
-            <p class="paragraph">With two types of users (people posting a job and people looking for a job), it was key to understand both of their unique needs to understand what kind of features would be required in our app. For example, Joy (our client) wants to make sure that the Helper will get along with her parents when she's not there. On the other hand, Jordan needs flexible hours since he's a full-time student. In both cases, they want to make sure they're working with someone who's reliable and trustworthy. </p>
-          </div>
-          <div class="flexbox become-column">
-            <div class="flex-half">
-              <a href="img/helpmate/Persona-Joy.png" target="_blank"><img src="img/helpmate/Persona-Joy.png" alt="Picture of persona with some descriptions in text" class="img-header image-link"></a>
+        <section class="narrow-section">
+
+          <h2 class="paragraph-header">Design Principles</h2>
+          <div class="flexbox" style="align-items: start;">
+            <div class="flex-onethird">
+              <img src="img/helpmate/safety.svg" alt="lock on a computer monitor" class="project-banner">
+              <div class="spacer-mini-horizontal"></div>
+              <h3 style="color: #27B2B2;">Safety + Trust</h3>
+              <p class="paragraph">Unlike Craigslist, HelpMate is a user-verified service that allows both Helpers and Clients to see each other’s profiles and ratings. This ensures that both parties are aware of the other’s behaviours and instills a sense of assurance for the completion of a task.</p>
             </div>
+            <div class="flex-onethird">
+              <img src="img/helpmate/support.svg" alt="HelpMate placed in between Craigslist and TaskRabbit on a scale of informal versus formal" class="project-banner">
+              <div class="spacer-mini-horizontal"></div>
+              <h3 style="color: #27B2B2;">Flexibility and Support</h3>
+              <p class="paragraph">Students may find it hard to commit to a traditional part-time job due to fluctuating schedules. HelpMate’s scheduling flexibility allows Helpers and Clients to organize an task without the rigidity of a formal job.</p>
+            </div>
+            <div class="flex-onethird">
+              <img src="img/helpmate/community.svg" alt="HelpMate placed in between Craigslist and TaskRabbit on a scale of informal versus formal" class="project-banner">
+              <div class="spacer-mini-horizontal"></div>
+              <h3 style="color: #27B2B2;">Community</h2>
+              <p class="paragraph">We believe there’s more to the relationship between Helpers and Clients than merely monetary exchange. HelpMate seeks to connect different individuals in the community through helping each other and encourages building relationships, and not only hiring someone to get the job done. </p>
+            </div>
+          </div>
+        </section>
+
+        <div class="spacer-large-horizontal"></div>
+
+        <section class="narrow-section">
+          <div class="content-box">
+            <h2 class="paragraph-header">Working Through Complex User Flows</h2>
+            <p class="paragraph">With two types of users, it was key to understand their unique needs to ensure our app is useful for them. For example, Joy (the client) wants to make sure that the Helper will get along with her parents when she's not there. On the other hand, Jordan needs flexible hours since he's a full-time student. In both cases, they want to make sure they're working with someone who's reliable and trustworthy. </p>
+          </div>
+          <div class="spacer-small-horizontal"></div>
+          <div class="flexbox">
             <div class="flex-half">
-              <a href="img/helpmate/Persona-Jordan.png" target="_blank"><img src="img/helpmate/Persona-Jordan.png" alt="Picture of persona with some descriptions in text" class="img-header image-link"></a>
+              <img src="img/helpmate/Persona-Joy.png" alt="Picture of persona with some descriptions in text" class="img-artefact">
+            </div>
+           <div class="flex-half">
+              <img src="img/helpmate/Persona-Jordan.png" alt="Picture of persona with some descriptions in text" class="img-artefact">
             </div>
           </div>
 
           <div class="spacer-horizontal"></div>
           <div class="content-box">
-            <p class="paragraph">I facilitated a whiteboarding session as we worked through a typical user flow through our app, which allowed us to narrow down our MVP right away and got us thinking about key interface screens and information architecture early on. This made it easier for us to diverge and re-converge when it came to ideating, and we were able to refer back to our shelved ideas later in our process once we had our MVP down.</p>
+            <p class="paragraph">I ran a whiteboarding session for a typical user flow through our app, which allowed us to narrow down our MVP right away and got us thinking about key interface screens and information architecture early on. This made it easier for us to diverge and re-converge when it came to ideating, and we were able to refer back to our shelved ideas later in our process once we had our MVP down.</p>
           </div>
           <div class="spacer-horizontal"></div>
-          <img src="img/helpmate/userflows.png" alt="Picture of user flows drawn out on a whiteboard" class="img-header">
+          <img src="img/helpmate/userflows.png" alt="Picture of user flows drawn out on a whiteboard" class="img-artefact">
         </section>
 
         <div class="spacer-large-horizontal"></div>
 
-        <section class="content-box-wide">
-          <div class="content-box">
+        <section class="narrow-section">
             <h2 class="paragraph-header">Wireframing</h2>
-            <p class="paragraph">Once we knew what kind of features were needed for our app, we began to visualize the interface. Our first set of graybox wireframes were quick and dirty, focusing on the information architecture and making sure things were in the right place. Once the foundation was set, we built on the specific visuals and interactions of each screen. By having a strong foundation from the start, we avoided having to make major changes down the road. </p>
-          </div>
-
-          <a href="img/helpmate/gray-wireframes.png" target="_blank"><img src="img/helpmate/gray-wireframes.png" alt="Picture of a digital affinity diagram with 3 levels of priority defined" class="img-header image-link"></a>
+            <p class="paragraph">Once we knew what kind of features were needed for our app, we began to visualize the interface. Our first set of graybox wireframes were quick and dirty, focusing on the information architecture and that movement through different pages felt natural. Once the foundation was set, we built on the specific visuals and interactions of each screen. By having a strong foundation from the start, we avoided having to make major changes down the road. </p>
+            <div class="spacer-small-horizontal"></div>
+          <img src="img/helpmate/gray-wireframes.png" alt="Picture of a digital affinity diagram with 3 levels of priority defined" class="img-artefact">
         </section>
 
         <div class="spacer-large-horizontal"></div>
 
-        <section class="content-box-wide">
-          <div class="content-box">
-            <h2 class="paragraph-header">Visual Design</h2>
-            <p class="paragraph">As we finalized our graybox wireframes, we were also thinking about the look and feel of our app. We wanted to emphasize the sense of community, which we achieved through the use of warm colours, inclusive illustrations, and softening corners of interactive elements.</p>
-          </div>
-
-          <a href="img/helpmate/style-guide.png" target="_blank"><img src="img/helpmate/style-guide.png" alt="Picture of a digital affinity diagram with 3 levels of priority defined" class="img-header image-link"></a>
+        <section class="narrow-section">
+          <h2 class="paragraph-header">Design System</h2>
+          <p class="paragraph">As we finalized our graybox wireframes, we considered the look and feel of our app. We wanted to emphasize the sense of community, which we achieved through the use of warm colours, inclusive illustrations, and softening corners of interactive elements. We created all of our reusable components as Figma symbols, allowing us to prototype with speed and accuracy.</p>
+          <div class="spacer-small-horizontal"></div>
+          <img src="img/helpmate/style-guide.png" alt="Picture of a digital affinity diagram with 3 levels of priority defined" class="img-artefact">
         </section>
 
         <div class="spacer-large-horizontal"></div>
 
-        <section class="content-box-wide">
-          <div class="content-box">
-            <h2 class="paragraph-header">User Testing</h2>
-            <p class="paragraph">After many iterations, we had a version of our app that we were happy with. Naturally, it was time to take it to our users and see where we went right and where we went wrong. We got a lot of great feedback, which we organized and addressed by priority levels: major, minor, and opportunities.</p>
-          </div>
-
-          <a href="img/helpmate/user-testing.png" target="_blank"><img src="img/helpmate/user-testing.png" alt="Picture of a digital affinity diagram with 3 levels of priority defined" class="img-header image-link"></a>
+        <section class="narrow-section">
+          <h2 class="paragraph-header">User Testing</h2>
+          <p class="paragraph">After many iterations, we validated our design with usability testing. We prioritized feedback using affinity mapping and Figma as our digital whiteboard. By staying organized, we addressed all the issues and even found some opportunities for improvement.</p>       
+          <div class="spacer-mini-horizontal"></div>    
+          <img src="img/helpmate/user-testing.png" alt="Picture of a digital affinity diagram with 3 levels of priority defined" class="project-banner"></div>
+          
         </section>
 
         <div class="spacer-large-horizontal"></div>
-
-        <section class="content-box-wide">
-          <div class="content-box">
-          <h2 class="paragraph-header">Find The Right Job</h2>
-          <p class="paragraph">Our home screen started as a list of cards but we quickly realized that this was too dry and it involved a lot of scrolling. So we added in a map, with the caveat that addresses were "blurred out" for safety reasons until the client and helper were ready to accept the job. We combined our map and list view, simplifying the information on the cards for better glanceability and gave the user a couple of different ways they could use to search through tasks.</p>
-          <a href="https://www.figma.com/proto/I7vLAdPurB552xUII4CfUQ/HelpMate-Final-Copy?node-id=354%3A1427&viewport=2074%2C-4323%2C0.6921630501747131&scaling=scale-down" class="intext-link" target="_blank">👉🏼 Try out the Interactive Prototype</a>
-          </div>
-          <a href="img/helpmate/jobs.png" target="_blank"><img src="img/helpmate/jobs.png" alt="Wireflow of home screen map and task listing interactions" class="img-header image-link"></a>
-        </section>
+        
+        <img src="img/helpmate/final-design.png" alt="Picture of a digital affinity diagram with 3 levels of priority defined" class="project-banner">
 
         <div class="spacer-large-horizontal"></div>
 
-        <section class="content-box-wide">
-          <div class="content-box">
-            <h2 class="paragraph-header">Community</h2>
-            <p class="paragraph">HelpMate encourages building personal relationships, not just hiring someone to get the job done. As such, one of the main interactions in our app is the chat function, which users are encouraged to use for everything from requesting a job to rescheduling and/or cancelling. Tasks are pinned to the top with clear call-to-actions to keep the conversation focused and provide easy access to the task details. </p>
-            <a href="https://www.figma.com/proto/I7vLAdPurB552xUII4CfUQ/HelpMate-Final-Copy?node-id=77%3A4018&viewport=314%2C607%2C0.17927564680576324&scaling=scale-down" class="intext-link" target="_blank">👉🏼 Try out the Interactive Prototype</a>
+        <section class="narrow-section flexbox" style="align-items: start;">
+          <div class="flex-half">
+            <img src="img/helpmate/jobs.png" alt="Wireflow of home screen map and task listing interactions" class="project-banner">
+            <div class="spacer-mini-horizontal"></div>
+            <h2 class="paragraph-header">The Dashboard</h2>
+            <h3>Community</h3>
+            <p class="paragraph">We wanted to help users find tasks that are in their neighbourhood. Our dashboard showed a map view, by default allowing users to see what's available nearby their location. Job postings show approximate commute times based on GPS, with shorter-distance methods chosen rather than cars or trains to encourage staying local.</p>
+            
           </div>
-          <a href="img/helpmate/Chat.png" target="_blank"><img src="img/helpmate/Chat.png" alt="Wireflow of a client using chat to accept a task request" class="img-header image-link"></a>
+          <div class="flex-half">
+            <img src="img/helpmate/Chat.png" alt="Wireflow of a client using chat to accept a task request" class="project-banner">
+            <div class="spacer-mini-horizontal"></div>
+            <h2 class="paragraph-header">The Chat</h2>
+            <h3>Community</h3>
+            <p class="paragraph">One of the main interactions in our app is the chat function, which users are encouraged to use for everything from requesting a job to rescheduling and/or cancelling. Tasks are pinned to the top with clear call-to-actions to keep the conversation focused and provide easy access to the task details. </p>
+            
+          </div>
         </section>
-
         <div class="spacer-large-horizontal"></div>
 
-        <section class="content-box-wide">
-          <div class="content-box">
-            <h2 class="paragraph-header">Transparency and Reassurance</h2>
+        <section class="narrow-section flexbox" style="align-items: start;">
+          <div class="flex-half">
+            <img src="img/helpmate/check-in.png" alt="Wireflow of check-in process" class="project-banner">
+            <div class="spacer-mini-horizontal"></div>
+            <h2 class="paragraph-header">Task Progress</h2>
+            <h3>Safety + Trust</h3>
             <p class="paragraph">For their peace of mind, clients who can't be physically present at the task can choose to receive live updates of the task progress. A simple timeline with clear call-to-actions and states of completion makes it easy for both Helpers and Clients to stay on the same page. We were careful to choose check-in points that wouldn't interfere unnecessarily with the actual task.</p>
-            <a href="https://www.figma.com/proto/I7vLAdPurB552xUII4CfUQ/HelpMate-Final-Copy?node-id=304%3A6638&viewport=640%2C101%2C0.18698559701442719&scaling=scale-down" class="intext-link" target="_blank">👉🏼 Try out the Interactive Prototype</a>
           </div>
-
-          <a href="img/helpmate/check-in.png" target="_blank"><img src="img/helpmate/check-in.png" alt="Wireflow of check-in process" class="img-header image-link"></a>
-        </section>
+          <div class="flex-half">
+            <img src="img/helpmate/Cancelling.png" alt="Wireflow of cancelling through the chat" class="project-banner">
+            <div class="spacer-mini-horizontal"></div>
+            <h2 class="paragraph-header">Cancellation and Rescheduling</h2>
+            <h3 class="flex-half">Flexibility and Support</h3>
+            <p class="paragraph">HelpMate’s scheduling flexibility allows Helpers and Clients to organize an task without the rigidity of a formal job. Safeguards exist in the event of cancellation and rescheduling, with warnings at critical points to ensure that users can make the best informed decision.</p>
+          </div>
+          </section>
 
         <div class="spacer-large-horizontal"></div>
 
-        <section class="content-box-wide">
-          <div class="content-box">
-            <h2 class="paragraph-header">Flexibility and Support</h2>
-            <p class="paragraph">HelpMate’s scheduling flexibility allows Helpers and Clients to organize an task without the rigidity of a formal job. Safeguards exist in the event of cancellation and rescheduling, with warnings at critical points to ensure that users can make the best informed decision. An "Urgent Task" system allows Clients to feel assured their job will still be completed, while an appeal process means Helpers can cancel without anxiety in the event of a true emergency.</p>
-          </div>
-
-          <a href="img/helpmate/Cancelling.png" target="_blank"><img src="img/helpmate/Cancelling.png" alt="Wireflow of cancelling through the chat" class="img-header image-link"></a>
-        </section>
-
-
-        <div class="spacer-large-horizontal"></div>
-
-        <section class="content-box-wide">
-          <div class="content-box">
-          <h2 class="paragraph-header">Safety and Trust</h2>
-          <p class="paragraph">HelpMate is a verified service that allows both Helpers and Clients to see each other’s profiles and ratings from previous tasks. This ensures that both parties are aware of the other’s behaviours and instills a sense of assurance for the completion of a task.</p>
-          <a href="https://www.figma.com/proto/I7vLAdPurB552xUII4CfUQ/HelpMate-Final-Copy?node-id=124%3A4483&viewport=615%2C528%2C0.24981725215911865&scaling=scale-down" class="intext-link" target="_blank">👉🏼 Try out the Interactive Prototype</a>
-          </div>
-          <a href="img/helpmate/Verification.png" target="_blank"><img src="img/helpmate/Verification.png" alt="Two wireflows of reviews and sign-up verification" class="img-header image-link"></a>
-        </section>
-
-
-        <div class="spacer-large-horizontal"></div>
-
-        <section class="content-box-wide">
-          <div class="content-box">
+        <section class="narrow-section">
             <h2 class="paragraph-header">Reflection</h2>
             <p class="paragraph">Designing an app with two distinct types of users was difficult at first, because it meant having to think through every single piece of functionality and interaction from two very different perspectives. When the users' goals aligned, it was smooth sailing. Yet other times, they were in direct conflict. It was certainly an exercise in learning to prioritize and assess the relative consequences versus benefits of prioritizing one thing as opposed to anther. </p>
-            <p class="paragraph">This was an incredibly extensive project, and there's tons of details I wasn't even able to cover in this case study so if you're interested, I welcome you to get in touch! </p>
+            <p class="paragraph">This was an incredibly extensive project, and there's tons of details I wasn't even able to cover in this case study so if you're interested, I welcome you to get in touch. </p>
           </div>
         </section>
 
         <div class="spacer-large-horizontal"></div>
 
-        <p class="content-box contact-text">Interested in chatting about this project?</p>
-        <p class="content-box contact-text">Connect with me on <a class="intext-link" target="_blank" href="https://www.linkedin.com/in/jessie-li-82170291/">LinkedIn</a> or shoot me an <a class="intext-link" href="mailto:lidel@sfu.ca">email</a>!</p>
+          <section class="narrow-section">
+            <h2>Interested in chatting about this project?</h2>
+            <h2>Connect with me on <a class="intext-link" target="_blank" href="https://www.linkedin.com/in/jessie-li-82170291/">LinkedIn</a>.</h2></section>
+        <div class="spacer-large-horizontal"></div>
+
     </main>
 
-    <footer class="become-column">
-      <div class="footer-section become-column">
-        <h2 class="footer-header">CONTACT ME</h2>
-        <ul class="footer-list">
-          <li class="footer-list-item"><a href="mailto:lidel@sfu.ca" class="footer-link" target="_blank">lidel@sfu.ca</a></li>
-          <li class="footer-list-item"><a href="https://www.linkedin.com/in/jessie-li-82170291/" class="footer-link" target=”_blank”>LinkedIn</a></li>
-          <li class="footer-list-item">778-882-0202</li>
-        </ul>
-      </div>
-      <div class="footer-section become-column">
-        <h2 class="footer-header">MY EXPERIENCES</h2>
-        <ul class="footer-list">
-          <li class="footer-list-item"><a href="nokia" class="footer-link">My Nokia Internship</a></li>
-          <li class="footer-list-item"><a href="tumblershare" class="footer-link">TumblerShare</a></li>
-          <li class="footer-list-item"><a href="helpmate" class="footer-link">HelpMate</a></li>
-          <li class="footer-list-item"><a href="strava-team-challenges" class="footer-link">Strava Team Challenges</a></li>
-          <li class="footer-list-item"><a href="vmf-class-kit" class="footer-link">VMF Classroom Kit</a></li>
-          <li class="footer-list-item"><a href="airbnb-journals" class="footer-link">Airbnb Journals</a></li>
-        </ul>
-      </div>
-
-    </footer>
 
   <script src="js/scrollDownBar.js"></script>
   <script src="js/responsiveNav.js"></script>

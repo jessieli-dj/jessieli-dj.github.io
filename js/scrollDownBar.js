@@ -3,9 +3,9 @@
 
     function scrollFunction() {
       if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-          document.getElementById("topBar").style.borderBottom= "#DFDFDF 2px solid";
+          document.getElementById("topBar").style.boxShadow= "0rem 0 1rem rgba(0,0,0,0.05)";
         }
         else {
-          document.getElementById("topBar").style.borderBottom= "none";
+          document.getElementById("topBar").style.borderBottom= "none";     
         }
     }

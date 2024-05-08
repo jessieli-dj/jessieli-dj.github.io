@@ -11,10 +11,14 @@
     <!-- // Meta tags -->
 
     <!-- Links // -->
-    <link rel="stylesheet" href="css/combined.css">
-    <link href="https://fonts.googleapis.com/css2?family=Mada:wght@400;500;600;700;900&family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/links.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/text.css">
+    <link rel="stylesheet" href="css/spacers.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@500;900&display=swap" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- // Links -->
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -26,7 +30,7 @@
         gtag('config', 'UA-134999887-1');
     </script>
 
-    <title>Jessie Li's Portfolio</title>
+    <title>Jessie Li</title>
   </head>
 
   <body>
@@ -35,128 +39,115 @@
       <a href="/" class="home-link">Jessie Li</a>
       <div class="myNav" id="navbar">
         <a href="#about" class="nav-link">About</a>
-        <a href="#shipped" class="nav-link">Shipped Products</a>
-        <a href="#projects" class="nav-link">Conceptual Projects</a>
+        <a href="#projects" class="nav-link">Projects</a>
       </div>
-      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-        <i class="fa fa-bars"></i>
-      </a>
     </nav>
 
     <!-- Page Content // -->
     <main>
 
-      <div class="spacer-large-horizontal" id="about"></div>
-      <section class="content-box-wide" style="margin-top: 10%;">
-          <h1 id="intro-text">Hi! I'm Jessie Li.</h1>
-          <p id="intro-paragraph">I'm a UX/UI designer with a passion for using storytelling and human-centered design to create elegant, polished products that address user and business needs. Check out my works below!</p>
+      <div class="spacer-horizontal" id="about"></div>
+      <section style="margin-top: 10%;" class="narrow-section flexbox">
+        <div class="flex-half">
+          <h1 id="intro-text">Hi, I’m <span style="color: #4F60FF" id="intro-text">Jessie Li</span></h1>
+          <p id="intro-paragraph">I’m a UX/UI designer with 3+ years of experience designing within different industries. I love to explore innovative ideas, collaborate with product teams to solve real problems, and advocate for user needs to drive business value.  </p>
+          <p id="intro-paragraph">Currently: <b>Intermediate UX Designer</b> @ Solace</p>
+        </div>
+        <div class="flex-half">
+          <img src="img/home-page.svg" alt="Mockup of Figma file" class="project-banner">
+        </div>
+          
       </section>
 
-      <div class="spacer-large-horizontal" id="shipped"></div>
+      <div class="spacer-large-horizontal" id="projects"></div>
 
-      <section class="content-box-wide">
+      <section class="narrow-section">
 
-        <h2 class="home-header">🚀 SHIPPED PRODUCTS</h2>
-
-        <div class="flexbox become-column-home">
-
-          <a href="nokia" class="project flex-half-home">
-            <img src="img/nokia/home-banner.png" alt="Picture of a Mac with interface" class="img-header">
-            <div class="project-desc">
-              <h3 class="blurb-header">Nokia Internship 2019, designing features for technical users</h3>
-              <div class="flexbox">
-                <div class="chip">💻 Web</div>
+        <h2 class="header">My Projects</h2>
+        <div class="spacer-horizontal"></div>
+        <div class="project-image-left">
+          <div class="img-header" style="background-color:#7FA1C6">
+            <img src="img/solace/home-banner.png" alt="Picture of a Mac with interface"  style="width:100%; height:100%">
+          </div>
+          <div class="project-desc">
+            <h3 class="blurb-header">Solace Audit & Import</h3>
+            <h4>Web Application</h4>
+            <p class="blurb-text">Audit & Import saves time for customers with existing event architecture by populating Event Portal with their existing objects rather than re-creating them from scratch. </p>
+            <p class="blurb-text"><b>Case study coming soon!</b></p>
+          </div>
+        </div>
+        <div class="spacer-horizontal"></div>
+            <div class="project-image-left">
+              <div class="img-header" style="background-color:#7FA1C6">
+                <img src="img/solace/hackathon/home-banner.png" alt="Picture of a Mac with interface"  style="width:100%; height:100%">
+              </div>
+              <div class="project-desc">
+                <h3 class="blurb-header">Solace Secret Agency</h3>
+                <h4>Web Application</h4>
+                <p class="blurb-text">Blue sky design entry for Solace Hackfest 2024, re-imagining what it would look like if we applied video game tutorial styles of learning to in-app onboarding. Winner in the <b>Best Enhancements to the Product</b> category as the most innovative improvement.</p>
+                <p class="blurb-text"><b>Case study coming soon!</b></p>
               </div>
             </div>
-          </a>
 
-          <a href="tumblershare" class="project flex-half-home">
-            <img src="img/tumblershare/home.png" alt="Image of two mobile app screens" class="img-header">
-            <div class="project-desc">
-              <h3 class="blurb-header">TumblerShare, a tumbler sharing economy app</h3>
-              <div class="flexbox">
-                <div class="chip">📱 Mobile</div>
-                <div class="chip">💻 Web</div>
+            <div class="project-image-left">
+              
+              <div class="img-header">
+                <a href="aquanow" class="image-link"><img src="img/aquanow/banner.png" alt="Picture of two mobile screens" style="width:100%; height:100%"></a>
+              </div>
+              <div class="project-desc">
+                <h3 class="blurb-header">Aquanow</h3>
+                <h4>Web and Mobile</h4>
+                <p class="blurb-text">Converting a crypto-trading platform from web to mobile, leveraging insights from competitive analysis and mobile design principles.</p>
               </div>
             </div>
-          </a>
+
+            <div class="project-image-left">
+              <div class="img-header" style="background-color:#7FA1C6">
+                <a href="nokia" class="image-link"><img src="img/nokia/home-banner.png" alt="Picture of a Mac with interface"  style="width:100%; height:100%"></a>
+              </div>
+              <div class="project-desc">
+                <h3 class="blurb-header">Nokia Network Services Platform</h3>
+                <h4>Web Application</h4>
+                <p class="blurb-text">Creating an experience around leveraging automation to help network engineers save time and reduce risk of human error.</p>
+                <div class="spacer-mini-horizontal"></div>
+              </div>
+            </div>
+
+            <div class="project-image-left">
+              <div class="img-header" style="background-color:#7FA1C6">
+                <a href="helpmate" class="image-link"><img src="img/helpmate/home-banner.png" alt="Picture of two mobile screens" style="width:100%; height:100%"></a>
+              </div>
+              <div class="project-desc">
+                  <h3 class="blurb-header">HelpMate</h3>
+                  <h4>Mobile Application</h4>
+                  <p class="blurb-text">Collaborating with a team of designers to create a mobile app that connects people who need help with chores with young people in their communities.</p>
+                  <div class="spacer-mini-horizontal"></div>
+              </div>
+            </div>
+
+            <div class="project-image-left">
+              <div class="img-header" style="background-color:#7FA1C6">
+                <a href="helpmate" class="image-link"><img src="img/strava/home-banner.png" alt="Picture of two mobile screens" style="width:100%; height:100%"></a>
+              </div>
+              <div class="project-desc">
+                  <h3 class="blurb-header">Strava Team Challenges</h3>
+                  <h4>Mobile Application</h4>
+                  <p class="blurb-text">A 3-week project in a group of 4 creating a feature concept that allows users to work together in reaching a common exercise goal while having the freedom to work at their own pace and schedule.</p>
+                  <div class="spacer-mini-horizontal"></div>
+              </div>
+            </div>
         </div>
 
-        <div class="spacer-large-horizontal" id="projects"></div>
-
-        <h2 class="home-header">💭 CONCEPTUAL PROJECTS</h2>
-
-        <div class="flexbox become-column-home">
-          <a href="helpmate" class="project flex-half-home">
-            <img src="img/helpmate/home-banner.png" alt="Image of three mobile app screens" class="img-header">
-            <div class="project-desc">
-              <h3 class="blurb-header">HelpMate, a community-based task sharing economy app</h3>
-              <div class="flexbox">
-                <div class="chip">📱 Mobile</div>
-              </div>
-            </div>
-
-          </a>
-          <a href="vmf-class-kit" class="project flex-half-home">
-            <img src="img/vmf/home-banner.png" alt="Picture of instructions booklet, mural passport and lesson cards" class="img-header">
-            <div class="project-desc">
-              <h3 class="blurb-header">Vancouver Mural Festival Class Kit, a mural-inspired art lesson planning kit</h3>
-              <div class="flexbox">
-                <div class="chip">📕 Physical</div>
-              </div>
-            </div>
-          </a>
-        </div>
-
-        <div class="flexbox become-column-home">
-          <a href="strava-team-challenges" class="project flex-half-home">
-            <img src="img/strava/home-banner.png" alt="Image of two mobile app screens" class="img-header">
-            <div class="project-desc">
-
-              <h3 class="blurb-header">Strava Team Challenges, a social feature concept for Strava Android</h3>
-              <div class="flexbox">
-                <div class="chip">📱 Mobile</div>
-              </div>
-            </div>
-          </a>
-
-          <a href="airbnb-journals" class="project flex-half-home">
-            <img src="img/airbnb/home-banner.png" alt="Picture of three mobile screen interfaces" class="img-header">
-            <div class="project-desc">
-              <h3 class="blurb-header">Airbnb Journals, an app to share your travel stories and Experiences</h3>
-              <div class="flexbox">
-                <div class="chip">📱 Mobile</div>
-              </div>
-            </div>
-          </a>
-
-        </div>
-
-        <div class="spacer-large-horizontal"></div>
+        <div class="spacer-horizontal"></div>
       </section>
+
+      <footer>
+      <h2>Thanks for visiting. Find me on <a href="https://www.linkedin.com/in/jessie-li-82170291/" class="intext-link">LinkedIn</a> to chat more 🌱</h2>
+      </footer>
+      <div class="spacer-horizontal"></div>
+
     </main>
-    <footer class="become-column">
-      <div class="footer-section become-column">
-        <h2 class="footer-header">CONTACT ME</h2>
-        <ul class="footer-list">
-          <li class="footer-list-item"><a href="mailto:lidel@sfu.ca" class="footer-link" target="_blank">lidel@sfu.ca</a></li>
-          <li class="footer-list-item"><a href="https://www.linkedin.com/in/jessie-li-82170291/" class="footer-link" target=”_blank”>LinkedIn</a></li>
-          <li class="footer-list-item">778-882-0202</li>
-        </ul>
-      </div>
-      <div class="footer-section become-column">
-        <h2 class="footer-header">MY EXPERIENCES</h2>
-        <ul class="footer-list">
-          <li class="footer-list-item"><a href="nokia" class="footer-link">My Nokia Internship</a></li>
-          <li class="footer-list-item"><a href="tumblershare" class="footer-link">TumblerShare</a></li>
-          <li class="footer-list-item"><a href="helpmate" class="footer-link">HelpMate</a></li>
-          <li class="footer-list-item"><a href="strava-team-challenges" class="footer-link">Strava Team Challenges</a></li>
-          <li class="footer-list-item"><a href="vmf-class-kit" class="footer-link">VMF Classroom Kit</a></li>
-          <li class="footer-list-item"><a href="airbnb-journals" class="footer-link">Airbnb Journals</a></li>
-        </ul>
-      </div>
 
-    </footer>
     <!-- // Page Content -->
 
     <script src="js/scrollDownBar.js"></script>

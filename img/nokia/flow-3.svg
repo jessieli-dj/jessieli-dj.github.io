@@ -1,0 +1,41 @@
+<svg width="314" height="207" viewBox="0 0 314 207" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="1" y="1" width="311.149" height="204.426" rx="6.02128" fill="white" stroke="#797979" stroke-width="2"/>
+<mask id="mask0_7_695" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="314" height="207">
+<mask id="path-2-inside-1_7_695" fill="white">
+<rect width="313.149" height="206.426" rx="4"/>
+</mask>
+<rect width="313.149" height="206.426" rx="4" fill="#C4C4C4" stroke="#969696" stroke-width="11.234" mask="url(#path-2-inside-1_7_695)"/>
+</mask>
+<g mask="url(#mask0_7_695)">
+<rect width="313.149" height="29.4894" fill="#3264AE"/>
+<rect width="313.149" height="29.4894" fill="#124192"/>
+<rect y="29.4894" width="29.4894" height="176.936" fill="#5879B2"/>
+</g>
+<rect x="1" y="1" width="311.149" height="204.426" rx="6.02128" stroke="#414141" stroke-width="2"/>
+<rect opacity="0.3" x="37.5957" y="173" width="60" height="16" fill="#C4C4C4"/>
+<rect opacity="0.3" x="37.5957" y="147" width="60" height="16" fill="#C4C4C4"/>
+<rect opacity="0.3" x="37.5957" y="120" width="60" height="16" fill="#C4C4C4"/>
+<rect opacity="0.3" x="37.5957" y="94" width="60" height="16" fill="#C4C4C4"/>
+<rect opacity="0.3" x="37.5957" y="70" width="60" height="16" fill="#C4C4C4"/>
+<rect opacity="0.3" x="37.5957" y="41" width="60" height="16" fill="#222222"/>
+<rect opacity="0.3" x="103.596" y="41" width="60" height="16" fill="#222222"/>
+<rect opacity="0.3" x="167.596" y="41" width="60" height="16" fill="#222222"/>
+<rect opacity="0.3" x="232.596" y="41" width="61" height="16" fill="#222222"/>
+<rect opacity="0.3" x="103.596" y="173" width="60" height="16" fill="#C4C4C4"/>
+<rect opacity="0.3" x="103.596" y="147" width="60" height="16" fill="#C4C4C4"/>
+<rect opacity="0.3" x="103.596" y="120" width="60" height="16" fill="#C4C4C4"/>
+<rect opacity="0.3" x="103.596" y="94" width="60" height="16" fill="#C4C4C4"/>
+<rect opacity="0.3" x="103.596" y="70" width="60" height="16" fill="#C4C4C4"/>
+<rect opacity="0.3" x="167.596" y="173" width="60" height="16" fill="#C4C4C4"/>
+<rect opacity="0.3" x="167.596" y="147" width="60" height="16" fill="#C4C4C4"/>
+<rect opacity="0.3" x="167.596" y="120" width="60" height="16" fill="#C4C4C4"/>
+<rect opacity="0.3" x="167.596" y="94" width="60" height="16" fill="#C4C4C4"/>
+<rect opacity="0.3" x="167.596" y="70" width="60" height="16" fill="#C4C4C4"/>
+<rect opacity="0.3" x="232.596" y="173" width="61" height="16" fill="#C4C4C4"/>
+<rect opacity="0.3" x="232.596" y="147" width="61" height="16" fill="#C4C4C4"/>
+<rect opacity="0.3" x="232.596" y="120" width="61" height="16" fill="#C4C4C4"/>
+<rect opacity="0.3" x="232.596" y="94" width="61" height="16" fill="#C4C4C4"/>
+<rect opacity="0.3" x="232.596" y="70" width="61" height="16" fill="#C4C4C4"/>
+<path d="M130.938 127.296L130.938 89C130.938 86.7909 129.147 85 126.938 85L119.062 85C116.853 85 115.062 86.7909 115.062 89L115.062 127.296L103.523 115.983C100.43 112.951 95.4466 112.951 92.3532 115.983C89.2156 119.059 89.2156 124.08 92.3532 127.156L117.415 151.726C120.508 154.758 125.492 154.758 128.585 151.726L153.647 127.156C156.784 124.08 156.784 119.059 153.647 115.983C150.553 112.951 145.57 112.951 142.477 115.983L130.938 127.296Z" fill="#63C161" stroke="white" stroke-width="8" stroke-linejoin="round"/>
+<path d="M215.667 111.532L215.667 148C215.667 150.209 213.876 152 211.667 152L204.333 152C202.124 152 200.334 150.209 200.333 148L200.333 111.532L190.113 121.941C187.114 124.996 182.219 124.996 179.22 121.941C176.26 118.927 176.26 114.07 179.22 111.055L202.553 87.2913C205.553 84.2362 210.447 84.2362 213.447 87.2913L236.78 111.055C239.74 114.07 239.74 118.927 236.78 121.941C233.781 124.996 228.886 124.996 225.887 121.941L215.667 111.532Z" fill="#D64141" stroke="white" stroke-width="8" stroke-linejoin="round"/>
+</svg>
