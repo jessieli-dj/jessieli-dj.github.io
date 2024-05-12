@@ -102,15 +102,15 @@ footer {
   margin-right: 0.5rem;
 }
 
-.project-image-left {
-  display: flex;
-  flex-wrap: wrap;
-  margin-bottom: 8rem;
+#coming-soon {
+  border: 1px solid rgb(225, 225, 225);
+  border-radius: 4px;
+  padding: 1rem;
 }
 
-.project-image-right {
+.project-image {
   display: flex;
-  flex-wrap: wrap-reverse;
+  flex-wrap: wrap;
   margin-bottom: 8rem;
 }
 
@@ -155,8 +155,6 @@ footer {
 
 .card {
   flex: 1 1 100px;
-  /* border: solid 1px rgba(0,0,0,0.3); */
-  /* background-color: #EBF2FF; */
   padding: 1.5rem;
   margin-bottom: 1rem;
 }
