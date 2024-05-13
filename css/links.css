@@ -23,6 +23,18 @@
   font-weight: 900;
 }
 
+.project-link {
+  color: #000;
+  text-decoration: none;
+  font-weight: 900;
+  font-size: 30px;
+  margin-top: 0;
+}
+
+.project-link:hover{
+  color: #6d6d6d;
+}
+
 .active {
   border-bottom: 2px solid rgb(232, 118, 118);
 }
